@@ -1,0 +1,289 @@
+Visiting Page: index.html
+ecindex.html
+adindex.html
+hindex.html
+Files/ec.html
+Files/ad.html
+Files/h.html
+Files/codeofethics.htm
+Files/feature.html
+Files/reset.htm
+files/Help/1a.html
+files/Help/1b.html
+Retrieving Image: https://web.archive.org/web/20150114072207im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/corner.jpg
+Retrieving Image: https://web.archive.org/web/20150114072207im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/top_copy.jpg
+Retrieving Image: https://web.archive.org/web/20150114072207im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/activate_computer.jpg
+Retrieving Image: https://web.archive.org/web/20150114072207im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/activate_angel.jpg
+Retrieving Image: https://web.archive.org/web/20150114072207im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/deactivate_helper.jpg
+Retrieving Image: https://web.archive.org/web/20150114072207im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/other_buttons.jpg
+
+Visiting Page: ecindex.html
+files/Computer/1a.html
+files/Computer/1b.html
+Retrieving Image: https://web.archive.org/web/20141125172414im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/deactivate_computer.jpg
+Retrieving Image: https://web.archive.org/web/20141125172414im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/activate_helper.jpg
+
+Visiting Page: adindex.html
+files/Angel/1a.html
+files/Angel/1b.html
+Retrieving Image: https://web.archive.org/web/20141125172932im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/deactivate_angel.jpg
+
+Visiting Page: hindex.html
+files/1a.html
+files/1b.html
+
+Visiting Page: Files/ec.html
+Retrieving Image: https://web.archive.org/web/20141125172404im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/computer_pop.jpg
+
+Visiting Page: Files/ad.html
+Retrieving Image: https://web.archive.org/web/20141125172921im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/images/angel_pop.jpg
+
+Visiting Page: Files/h.html
+Retrieving Image: https://web.archive.org/web/20141125172927im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/Files/Images/helper_no_elf_pop.jpg
+
+Visiting Page: Files/codeofethics.htm
+Retrieving Image: https://web.archive.org/web/20170609220441im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/CodeOfEthics_files/image001.gif
+Retrieving Image: https://web.archive.org/web/20170609220441im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/CodeOfEthics_files/image003.jpg
+Retrieving Image: https://web.archive.org/web/20170609220441im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/CodeOfEthics_files/image005.gif
+
+Visiting Page: Files/feature.html
+
+Visiting Page: Files/reset.htm
+Retrieving Image: https://web.archive.org/web/20170609220923im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/corner.jpg
+Retrieving Image: https://web.archive.org/web/20170609220923im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/top_copy.jpg
+Retrieving Image: https://web.archive.org/web/20170609220923im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/activate_computer.jpg
+Retrieving Image: https://web.archive.org/web/20170609220923im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/activate_angel.jpg
+Retrieving Image: https://web.archive.org/web/20170609220923im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/activate_helper.jpg
+Retrieving Image: https://web.archive.org/web/20170609220923im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/other_buttons.jpg
+
+Visiting Page: files/Help/1a.html
+files/Help/2.html
+files/codeofethics.htm
+files/feature.html
+files/Help/reset.htm
+Retrieving Image: https://web.archive.org/web/20140129220900im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/deactivate_helper.jpg
+
+Visiting Page: files/Help/1b.html
+
+Visiting Page: files/Computer/1a.html
+files/Computer/..1a.html
+files/Computer/2.html
+files/Computer/reset.htm
+Retrieving Image: https://web.archive.org/web/20121103093550im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/deactivate_computer.jpg
+
+Visiting Page: files/Computer/1b.html
+
+Visiting Page: files/Angel/1a.html
+files/Angel/2.html
+files/Angel/reset.htm
+Retrieving Image: https://web.archive.org/web/20140129232558im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/deactivate_angel.jpg
+
+Visiting Page: files/Angel/1b.html
+
+Visiting Page: files/1a.html
+files/2.html
+files/reset.htm
+
+Visiting Page: files/1b.html
+
+Visiting Page: files/Help/2.html
+files/Help/3.html
+
+Visiting Page: files/codeofethics.htm
+
+Visiting Page: files/feature.html
+
+Visiting Page: files/Help/reset.htm
+
+Visiting Page: files/Computer/..1a.html
+HTTP error fetching URL
+
+Visiting Page: files/Computer/2.html
+files/Computer/3.html
+
+Visiting Page: files/Computer/reset.htm
+
+Visiting Page: files/Angel/2.html
+files/Angel/3.html
+
+Visiting Page: files/Angel/reset.htm
+
+Visiting Page: files/2.html
+files/3.html
+
+Visiting Page: files/reset.htm
+
+Visiting Page: files/Help/3.html
+files/Help/3-1.html
+files/Help/3-2.html
+files/Help/3-3.html
+files/Help/4.html
+files/Help/5.html
+files/Help/6.html
+
+Visiting Page: files/Computer/3.html
+files/Computer/4.html
+files/Computer/5.html
+files/Computer/6.html
+
+Visiting Page: files/Angel/3.html
+files/Angel/4.html
+files/Angel/5.html
+files/Angel/6.html
+
+Visiting Page: files/3.html
+files/4.html
+files/5.html
+files/6.html
+
+Visiting Page: files/Help/3-1.html
+Retrieving Image: https://web.archive.org/web/20141125172446im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/Images/helper_pop.jpg
+
+Visiting Page: files/Help/3-2.html
+Retrieving Image: https://web.archive.org/web/20150116021554im_/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/files/images/helper_pop.jpg
+
+Visiting Page: files/Help/3-3.html
+
+Visiting Page: files/Help/4.html
+files/Help/4-1.html
+files/Help/4-2.html
+files/Help/4-3.html
+files/Help/41.html
+files/Help/42.html
+files/Help/43.html
+
+Visiting Page: files/Help/5.html
+files/Help/5-1.html
+files/Help/5-2.html
+files/Help/5-3.html
+files/Help/51.html
+files/Help/52.html
+files/Help/53.html
+
+Visiting Page: files/Help/6.html
+files/Help/6-1.html
+files/Help/6-2.html
+files/Help/61.html
+files/Help/62.html
+
+Visiting Page: files/Computer/4.html
+files/Computer/41.html
+files/Computer/42.html
+files/Computer/43.html
+
+Visiting Page: files/Computer/5.html
+files/Computer/51.html
+files/Computer/52.html
+files/Computer/53.html
+
+Visiting Page: files/Computer/6.html
+files/Computer/61.html
+files/Computer/62.html
+
+Visiting Page: files/Angel/4.html
+files/Angel/41.html
+files/Angel/42.html
+files/Angel/43.html
+
+Visiting Page: files/Angel/5.html
+files/Angel/51.html
+files/Angel/52.html
+files/Angel/53.html
+
+Visiting Page: files/Angel/6.html
+files/Angel/61.html
+files/Angel/62.html
+
+Visiting Page: files/4.html
+files/41.html
+files/42.html
+files/43.html
+
+Visiting Page: files/5.html
+files/51.html
+files/52.html
+files/53.html
+
+Visiting Page: files/6.html
+files/61.html
+files/62.html
+
+Visiting Page: files/Help/4-1.html
+
+Visiting Page: files/Help/4-2.html
+
+Visiting Page: files/Help/4-3.html
+
+Visiting Page: files/Help/41.html
+
+Visiting Page: files/Help/42.html
+
+Visiting Page: files/Help/43.html
+
+Visiting Page: files/Help/5-1.html
+
+Visiting Page: files/Help/5-2.html
+
+Visiting Page: files/Help/5-3.html
+
+Visiting Page: files/Help/51.html
+
+Visiting Page: files/Help/52.html
+
+Visiting Page: files/Help/53.html
+
+Visiting Page: files/Help/6-1.html
+
+Visiting Page: files/Help/6-2.html
+
+Visiting Page: files/Help/61.html
+
+Visiting Page: files/Help/62.html
+
+Visiting Page: files/Computer/41.html
+
+Visiting Page: files/Computer/42.html
+
+Visiting Page: files/Computer/43.html
+
+Visiting Page: files/Computer/51.html
+
+Visiting Page: files/Computer/52.html
+
+Visiting Page: files/Computer/53.html
+
+Visiting Page: files/Computer/61.html
+
+Visiting Page: files/Computer/62.html
+
+Visiting Page: files/Angel/41.html
+
+Visiting Page: files/Angel/42.html
+
+Visiting Page: files/Angel/43.html
+
+Visiting Page: files/Angel/51.html
+
+Visiting Page: files/Angel/52.html
+
+Visiting Page: files/Angel/53.html
+
+Visiting Page: files/Angel/61.html
+
+Visiting Page: files/Angel/62.html
+
+Visiting Page: files/41.html
+
+Visiting Page: files/42.html
+
+Visiting Page: files/43.html
+
+Visiting Page: files/51.html
+
+Visiting Page: files/52.html
+
+Visiting Page: files/53.html
+
+Visiting Page: files/61.html
+
+Visiting Page: files/62.html
