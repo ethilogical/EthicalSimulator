@@ -28,7 +28,7 @@ The technical team members include:
 
 * Ian Kenten (technical lead and coordinator)
 * Rawaz Rahim
-* Joelle Ramiandisoa
+* Joelle Ramiandrisoa
 
 Project License
 ---------------
