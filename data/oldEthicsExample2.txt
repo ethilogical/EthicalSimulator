@@ -1,0 +1,114 @@
+{
+	"narratives": [
+		{
+			"narrative":"MARCII Software Bug",
+			"startPage":"MARCIIBug-1",
+			"passages": [
+				{
+					"page":"MARCIIBug-1a",
+					"passage":"",
+					"choices": [
+						{
+							"choice":"Continue",
+							"page":"MARCIIBug-2"
+						}
+					]
+				},
+				{
+					"page":"MARCIIBug-1b",
+					"passage":"",
+					"choices": [
+						{
+							"choice":"Continue",
+							"page":"MARCIIBug-2"
+						}
+					]
+				},
+				{
+					"page":"MARCIIBug-2",
+					"passage":"",
+					"choices": [
+						{
+							"choice":"Continue",
+							"page":"MARCIIBug-3"
+						}
+					]
+				},
+				{
+					"page":"MARCIIBug-3",
+					"passage":"",
+					"passage":"",
+					"choices": [
+						{
+							"choice":"Submit project on time with the bugs",
+							"page":"MARCIIBug-SubmitDontNotify-4",
+							"principles": [
+							
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						},
+						{
+							"choice":"Submit project on time with bugs, notify hospital",
+							"page":"MARCIIBug-SubmitNotify-5",
+							"principles": [
+							
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						},
+						{
+							"choice":"Delay system and test",
+							"page":"MARCIIBug-DelayTest-6",
+							"principles": [
+							
+							]
+							"angel":"",
+							"devil":"",
+							"help":""
+						}
+					]
+				},
+				{
+					"page":"MARCIIBug-4",
+					"passage":"",
+					"passage":"",
+					"choices": [
+						{
+							"choice":"",
+							"page":"MARCIIBug-41",
+							"principles": [
+							
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						},
+						{
+							"choice":"",
+							"page":"MARCIIBug-42",
+							"principles": [
+							
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						},
+						{
+							"choice":"",
+							"page":"MARCIIBug-43",
+							"principles": [
+							
+							]
+							"angel":"",
+							"devil":"",
+							"help":""
+						}
+					]
+				}
+			]
+		}
+	]
+}
