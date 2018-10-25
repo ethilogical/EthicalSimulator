@@ -5,7 +5,7 @@
 			"explanation":"",
 			"principles": [
 				{
-					"principle":"Contribue to societ and to human well-being, acknowledging that all people are stakeholders in computing.",
+					"principle":"Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing.",
 					"explanation":"This principle, which concerns the quality of life of all people, affirms an obligation of computing professionals, both individually and collectively, to use their skills for the benefit of society, its members, and the environment surrounding them. This obligation includes promoting fundamental human rights and protecting each individual's right to autonomy. An essential aim of computing professionals is to minimize negative consequences of computing, including threats to health, safety, personal security, and privacy. When the interests of multiple groups conflict, the needs of those less advantaged should be given increased attention and priority.\\n\\n Computing professionals should consider whether the results of their efforts will respect diversity, will be used in socially responsible ways, will meet social needs, and will be broadly accessible. They are encouraged to actively contribute to society by engaging in pro bono or volunteer work that benefits the public good.\\n\\n In addition to a safe social environment, human well-being requires a safe natural environment. Therefore, computing professionals should promote environmental sustainability both locally and globally."
 				},
 				{
