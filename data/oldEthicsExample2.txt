@@ -6,7 +6,7 @@
 			"passages": [
 				{
 					"page":"MARCIIBug-1a",
-					"passage":"",
+					"passage":"You are a 32 year old male. You have received a BS degree in computer science and a MS degree in software engineering. You have worked as a professional computer scientist for eight years. You have spent the last five of those years working for QCA (Quality Computing Associates), a small firm that specializes in medical systems, as a software engineer. QCA has been in business for twenty-five years and has achieved a very prominent status. While at QCA you have produced good results and are thought of highly. In your time at QCA you have progressed from a programmer to a project manager.",
 					"choices": [
 						{
 							"choice":"Continue",
@@ -16,7 +16,7 @@
 				},
 				{
 					"page":"MARCIIBug-1b",
-					"passage":"",
+					"passage":"You are a 32 year old female. You have received a BS degree in computer science and a MS degree in software engineering. You have worked as a professional computer scientist for eight years. You have spent the last five of those years working for QCA (Quality Computing Associates), a small firm that specializes in medical systems, as a software engineer. QCA has been in business for twenty-five years and has achieved a very prominent status. While at QCA you have produced good results and are thought of highly. In your time at QCA you have progressed from a programmer to a project manager.",
 					"choices": [
 						{
 							"choice":"Continue",
@@ -26,7 +26,7 @@
 				},
 				{
 					"page":"MARCIIBug-2",
-					"passage":"",
+					"passage":"A new medical device has been developed that will greatly improve the ability of emergency medical services. The device is the MARC, the Medical Assessing and Response Computer, and is now in its second version referred to as MARC II. MARC was designed in 1999 by Remote Health Services, Inc. and received FDA approval in 2001. MARC is an implantable device designed to be inserted under the skin on the back of the patient's hand. MARC stores medical information that can be accessed by emergency personnel via a handheld scanner. Vital signs such as heart rate and blood pressure are monitored by MARC and abnormal levels are recorded. GPS (Global Positioning System) tracking has been added to the device in the second release. MARC can now notify emergency personnel of an occurring crisis and they can respond to the location obtained from GPS. The system will be of great help since it will alert emergency personnel of a problem, notify them of the location, what the emergency is, and will make all medical information available at the scene.",
 					"choices": [
 						{
 							"choice":"Continue",
@@ -36,14 +36,47 @@
 				},
 				{
 					"page":"MARCIIBug-3",
-					"passage":"",
-					"passage":"",
+					"passage":"Your company, QCA, has been hired by HeWell Alliance, a large medical organization, to develop a software system to utilize MARC II. You have been assigned the project and will head the team assembled to complete the project. The system requested by HeWell will make use of all of the features available in the MARC II. The system will be deployed at a major hospital, once the system has been proven successful at this test site it will then be used throughout the entire organization. You have been working on the system for almost a year and the project deadline is rapidly approaching. So far the system creation has gone smoothly, the team has kept on schedule and the system has passed all of the testing to date. However when all components of the system are put together a bug appears. For the most part the system operates to perfection, but very rarely the system will report an emergency and request for personnel to respond, when in fact there is no emergency. You have begun to track down the error but you are certain that you cannot find the bug, fix it, and complete the system on time.",
 					"choices": [
 						{
 							"choice":"Submit project on time with the bugs",
 							"page":"MARCIIBug-SubmitDontNotify-4",
-							"principles": [
-							
+							"principleCategories": [
+								{
+									"category":"Public",
+									"principles": [
+										{
+											"principle":"1.03",
+											"description":"Only present software that has been properly tested and that your development team believes to be safe.  The software should work towards the common good."
+										},
+										{
+											"principle":"1.04",
+											"description":"The client should be made aware of any potential hazards in using the system if they present a danger to the user, the public, or the environment."
+										},
+										{
+											"principle":"1.06",
+											"description":"Avoid deception concerning the public's interests in your software and associated documents."
+										}
+									]
+								},
+								{
+									"category":"Profession",
+									"principles": [
+										{
+											"principle":"6.08",
+											"description":"The responsibility to the profession is to detect, correct and report errors in software on which they are working."
+										}
+									]
+								},
+								{
+									"category":"Client",
+									"principles": [
+										{
+											"principle":"2.06",
+											"description":"Notify your customer promptly if the software is not likely to perform as expected, doesn't operate within budget or breaks any copyright laws, et al."
+										}
+									]
+								}
 							],
 							"angel":"",
 							"devil":"",
@@ -52,8 +85,46 @@
 						{
 							"choice":"Submit project on time with bugs, notify hospital",
 							"page":"MARCIIBug-SubmitNotify-5",
-							"principles": [
-							
+							"principleCategories": [
+								{
+									"category":"Public",
+									"principles": [
+										{
+											"principle":"1.03",
+											"description":"Only present software that has been properly tested and that your development team believes to be safe.  The software should work towards the common good."
+										},
+										{
+											"principle":"1.04",
+											"description":"The client should be made aware of any potential hazards in using the system if they present a danger to the user, the public, or the environment."
+										},
+										{
+											"principle":"1.05",
+											"description":"Work with the client on any matters of public concern caused by the software product."
+										},
+										{
+											"principle":"1.06",
+											"description":"Avoid deception concerning the public's interests in your software and associated documents."
+										}
+									]
+								},
+								{
+									"category":"Profession",
+									"principles": [
+										{
+											"principle":"6.08",
+											"description":"The responsibility to the profession is to detect, correct and report errors in software on which they are working."
+										}
+									]
+								},
+								{
+									"category":"Client",
+									"principles": [
+										{
+											"principle":"2.06",
+											"description":"Notify your customer promptly if the software is not likely to perform as expected, doesn't operate within budget or breaks any copyright laws, et al."
+										}
+									]
+								}
 							],
 							"angel":"",
 							"devil":"",
@@ -62,9 +133,46 @@
 						{
 							"choice":"Delay system and test",
 							"page":"MARCIIBug-DelayTest-6",
-							"principles": [
-							
-							]
+							"principleCategories": [
+								{
+									"category":"Product",
+									"principles": [
+										{
+											"principle":"3.01",
+											"description":"Work towards the best quality of software possible, including any decisions that must be made to ensure that the client is aware of all the risks involved in successful completion of the project."
+										},
+										{
+											"principle":"3.10",
+											"description":"While no software project can be totally bug free, you should make sure it has been tested and proper reviews have taken place."
+										},
+										{
+											"principle":"3.15",
+											"description":"Maintenance is just as important as initial development."
+										}
+									]
+								},
+								{
+									"category":"Public",
+									"principles": [
+										{
+											"principle":"1.03",
+											"description":"Only present software that has been properly tested and that your development team believes to be safe.  The software should work towards the common good."
+										},
+										{
+											"principle":"1.04",
+											"description":"The client should be made aware of any potential hazards in using the system if they present a danger to the user, the public, or the environment."
+										},
+										{
+											"principle":"1.05",
+											"description":"Work with the client on any matters of public concern caused by the software product."
+										},
+										{
+											"principle":"1.06",
+											"description":"Avoid deception concerning the public's interests in your software and associated documents."
+										}
+									]
+								}
+							],
 							"angel":"",
 							"devil":"",
 							"help":""
@@ -72,36 +180,344 @@
 					]
 				},
 				{
-					"page":"MARCIIBug-4",
-					"passage":"",
-					"passage":"",
+					"page":"MARCIIBug-SubmitDontNotify-4",
+					"passage":"You submit the system on time to the organization and they are very pleased with both the system and your work. The system is put into operation and runs smoothly. You move onto other projects and continue to receive praise for your work. Approximately six months after the submission of the MARC II software system HeWell contacts QCA and notifies them that the system has begun experiencing problems. The problems reported are the same as those that arose from the bug that you knew of in the system. HeWell wants you brought in to determine if the problem is with the software and if so to find and correct the error. Time is of the essence because the organization is loosing a considerable amount of money from this hospital by dispatching emergency personnel when they are not needed. There is also concern that this error could potentially stretch emergency services so thin at some time that they would be unable to respond to a true emergency. However, since people pay a monthly fee for the service the organization wishes to keep the system up and running if at all possible.",
 					"choices": [
 						{
-							"choice":"",
-							"page":"MARCIIBug-41",
-							"principles": [
-							
+							"choice":"Report was aware of the problem currently creating a patch",
+							"page":"MARCIIBug-ReportAware-41",
+							"principleCategories": [
+								{
+									"category":"Product",
+									"principles": [
+										{
+											"principle":"3.01",
+											"description":"Work towards the best quality of software possible, including any decisions that must be made to ensure that the client is aware of all the risks involved in successful completion of the project."
+										},
+										{
+											"principle":"3.10",
+											"description":"While no software project can be totally bug free, you should make sure it has been tested and proper reviews have taken place."
+										},
+										{
+											"principle":"3.15",
+											"description":"Maintenance is just as important as initial development."
+										}
+									]
+								}
 							],
 							"angel":"",
 							"devil":"",
 							"help":""
 						},
 						{
-							"choice":"",
-							"page":"MARCIIBug-42",
-							"principles": [
-							
+							"choice":"Deny known problem, offer to work on a patch",
+							"page":"MARCIIBug-DenyKnown-42",
+							"principleCategories": [
+								{
+									"category":"Profession",
+									"principles": [
+										{
+											"principle":"6.08",
+											"description":"The responsibility to the profession is to detect, correct and report errors in software on which they are working."
+										}
+									]
+								},
+								{
+									"category":"Client",
+									"principles": [
+										{
+											"principle":"2.06",
+											"description":"Notify your customer promptly if the software is not likely to perform as expected, doesn't operate within budget or breaks any copyright laws, et al."
+										}
+									]
+								}
 							],
 							"angel":"",
 							"devil":"",
 							"help":""
 						},
 						{
-							"choice":"",
-							"page":"MARCIIBug-43",
-							"principles": [
-							
-							]
+							"choice":"Deny any responsibility and no offer",
+							"page":"MARCIIBug-DenyResponsibility-43",
+							"principleCategories": [
+								{
+									"category":"Profession",
+									"principles": [
+										{
+											"principle":"6.08",
+											"description":"The responsibility to the profession is to detect, correct and report errors in software on which they are working."
+										}
+									]
+								},
+								{
+									"category":"Client",
+									"principles": [
+										{
+											"principle":"2.06",
+											"description":"Notify your customer promptly if the software is not likely to perform as expected, doesn't operate within budget or breaks any copyright laws, et al."
+										}
+									]
+								}
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						}
+					]
+				},
+				{
+					"page":"MARCIIBug-SubmitNotify-5",
+					"passage":"The project deadline has been reached and you have not been able to remove the only known bug from the system. You have a meeting with the HeWell's upper management and inform them that the system is completed and works exactly as planned except for the one glitch. You explain in detail what errors are generated by the problem and what progress you have made in attempting to rectify the situation. HeWell informs you that they will take one week to explore their options and encourages you to keep working to solve the problem. At the end of the week HeWell meets with you again and requests to know what you think should be done in this situation. They have decided to follow your advice since you know more about the software and the problem than anyone else. They feel that you have a better feel for the extent of the damage, if any, that could be caused by the error in the software.",
+					"choices": [
+						{
+							"choice":"Deploy system, work on patch",
+							"page":"MARCIIBug-DeploySystem-51",
+							"principleCategories": [
+								{
+									"category":"Product",
+									"principles": [
+										{
+											"principle":"3.01",
+											"description":"Work towards the best quality of software possible, including any decisions that must be made to ensure that the client is aware of all the risks involved in successful completion of the project."
+										},
+										{
+											"principle":"3.10",
+											"description":"While no software project can be totally bug free, you should make sure it has been tested and proper reviews have taken place."
+										},
+										{
+											"principle":"3.15",
+											"description":"Maintenance is just as important as initial development."
+										}
+									]
+								},
+								{
+									"category":"Public",
+									"principles": [
+										{
+											"principle":"1.03",
+											"description":"Only present software that has been properly tested and that your development team believes to be safe.  The software should work towards the common good."
+										},
+										{
+											"principle":"1.04",
+											"description":"The client should be made aware of any potential hazards in using the system if they present a danger to the user, the public, or the environment."
+										},
+										{
+											"principle":"1.05",
+											"description":"Work with the client on any matters of public concern caused by the software product."
+										},
+										{
+											"principle":"1.06",
+											"description":"Avoid deception concerning the public's interests in your software and associated documents."
+										}
+									]
+								}
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						},
+						{
+							"choice":"Postpone system and try to remove bugs",
+							"page":"MARCIIBug-PostponeSystem-52",
+							"principleCategories": [
+								{
+									"category":"Product",
+									"principles": [
+										{
+											"principle":"3.01",
+											"description":"Work towards the best quality of software possible, including any decisions that must be made to ensure that the client is aware of all the risks involved in successful completion of the project."
+										},
+										{
+											"principle":"3.10",
+											"description":"While no software project can be totally bug free, you should make sure it has been tested and proper reviews have taken place."
+										},
+										{
+											"principle":"3.15",
+											"description":"Maintenance is just as important as initial development."
+										}
+									]
+								},
+								{
+									"category":"Profession",
+									"principles": [
+										{
+											"principle":"6.08",
+											"description":"The responsibility to the profession is to detect, correct and report errors in software on which they are working."
+										}
+									]
+								},
+								{
+									"category":"Client",
+									"principles": [
+										{
+											"principle":"2.06",
+											"description":"Notify your customer promptly if the software is not likely to perform as expected, doesn't operate within budget or breaks any copyright laws, et al."
+										}
+									]
+								}
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						},
+						{
+							"choice":"Inform that bug is not really a big deal, no need to worry about it, do not work on patch",
+							"page":"MARCIIBug-NoBigDeal-53",
+							"principleCategories": [
+								{
+									"category":"Product",
+									"principles": [
+										{
+											"principle":"3.01",
+											"description":"Work towards the best quality of software possible, including any decisions that must be made to ensure that the client is aware of all the risks involved in successful completion of the project."
+										},
+										{
+											"principle":"3.10",
+											"description":"While no software project can be totally bug free, you should make sure it has been tested and proper reviews have taken place."
+										},
+										{
+											"principle":"3.15",
+											"description":"Maintenance is just as important as initial development."
+										}
+									]
+								},
+								{
+									"category":"Profession",
+									"principles": [
+										{
+											"principle":"6.08",
+											"description":"The responsibility to the profession is to detect, correct and report errors in software on which they are working."
+										}
+									]
+								},
+								{
+									"category":"Client",
+									"principles": [
+										{
+											"principle":"2.06",
+											"description":"Notify your customer promptly if the software is not likely to perform as expected, doesn't operate within budget or breaks any copyright laws, et al."
+										}
+									]
+								}
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						}
+					]
+				},
+				{
+					"page":"MARCIIBug-SubmitNotify-6",
+					"passage":"The project deadline has arrived and you inform HeWell that all components of the system are complete but that there is one problem with the software. You tell them that due to this problem the deadline will have to be extended. HeWell expresses extreme displeasure at your inability to fulfill your contract obligations. However, after explaining the nature of software and software bugs the organization becomes willing to listen. You tell HeWell that you feel this software system constitutes a critical system and therefore does not have the tolerance for errors that can be found in less mission-critical software. You also inform them that you feel it to be your duty to create the best and safest system possible and that this is backed by the code of ethics you subscribe to. After hearing this, the organization agrees with you and extends the deadline by three months. However, at the end of three months you still have not fixed the problem and HeWell informs you that it no longer wishes to delay. The organization wants to deploy the system as is while you continue to work to correct the problem with the software.",
+					"choices": [
+						{
+							"choice":"Deploy the system and work on patch",
+							"page":"MARCIIBug-DeploySystem-61",
+							"principleCategories": [
+								{
+									"category":"Product",
+									"principles": [
+										{
+											"principle":"3.01",
+											"description":"Work towards the best quality of software possible, including any decisions that must be made to ensure that the client is aware of all the risks involved in successful completion of the project."
+										},
+										{
+											"principle":"3.10",
+											"description":"While no software project can be totally bug free, you should make sure it has been tested and proper reviews have taken place."
+										},
+										{
+											"principle":"3.15",
+											"description":"Maintenance is just as important as initial development."
+										}
+									]
+								},
+								{
+									"category":"Public",
+									"principles": [
+										{
+											"principle":"1.03",
+											"description":"Only present software that has been properly tested and that your development team believes to be safe.  The software should work towards the common good."
+										},
+										{
+											"principle":"1.04",
+											"description":"The client should be made aware of any potential hazards in using the system if they present a danger to the user, the public, or the environment."
+										},
+										{
+											"principle":"1.05",
+											"description":"Work with the client on any matters of public concern caused by the software product."
+										},
+										{
+											"principle":"1.06",
+											"description":"Avoid deception concerning the public's interests in your software and associated documents."
+										}
+									]
+								}
+							],
+							"angel":"",
+							"devil":"",
+							"help":""
+						},
+						{
+							"choice":"Refuse to deploy",
+							"page":"MARCIIBug-Refuse-62",
+							"principleCategories": [
+								{
+									"category":"Product",
+									"principles": [
+										{
+											"principle":"3.01",
+											"description":"Work towards the best quality of software possible, including any decisions that must be made to ensure that the client is aware of all the risks involved in successful completion of the project."
+										},
+										{
+											"principle":"3.10",
+											"description":"While no software project can be totally bug free, you should make sure it has been tested and proper reviews have taken place."
+										},
+										{
+											"principle":"3.15",
+											"description":"Maintenance is just as important as initial development."
+										}
+									]
+								},
+								{
+									"category":"Public",
+									"principles": [
+										{
+											"principle":"1.03",
+											"description":"Only present software that has been properly tested and that your development team believes to be safe.  The software should work towards the common good."
+										},
+										{
+											"principle":"1.04",
+											"description":"The client should be made aware of any potential hazards in using the system if they present a danger to the user, the public, or the environment."
+										},
+										{
+											"principle":"1.05",
+											"description":"Work with the client on any matters of public concern caused by the software product."
+										},
+										{
+											"principle":"1.06",
+											"description":"Avoid deception concerning the public's interests in your software and associated documents."
+										}
+									]
+								},
+								{
+									"category":"Profession",
+									"principles": [
+										{
+											"principle":"6.08",
+											"description":"The responsibility to the profession is to detect, correct and report errors in software on which they are working."
+										}
+									]
+								},
+								{
+									"category":"Client",
+									"principles": [
+										{
+											"principle":"2.06",
+											"description":"Notify your customer promptly if the software is not likely to perform as expected, doesn't operate within budget or breaks any copyright laws, et al."
+										}
+									]
+								}
+							],
 							"angel":"",
 							"devil":"",
 							"help":""
