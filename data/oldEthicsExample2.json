@@ -78,9 +78,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"The hospital only has limited resources at their disposal - One false positive is just as bad as sending the ambulance to the wrong address, or failing to report an incident. You could notify your employer as well as the hospital of the unexpected bug. Surely the hospital understands the compromise for safety over convenience?",
+							"devil":"Bah, the bug only occurs in a limited number of test cases and there are never any negative failures, only false positives - You could release the system on time and save your company a bundle in lost revenue and reputation by delaying the launch.",
+							"help":"You've discovered a bug during the integration testing - This is not unusual, but the severity of the bug requires immediate attention. You have several options at your disposal, but submitting the system with the bugs and not notifying the hospital of the possible errors is unprofessional - It would be wise to look at your remaining options."
 						},
 						{
 							"choice":"Submit project on time with bugs, notify hospital",
@@ -126,9 +126,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"If the hospital uses the software and someone is injured or killed due to a bug that was classified as non-critical, do you think the hospital will take the blame for you? Responsibility (and liability) will still rest with the authors of the software.",
+							"devil":"Disclaimers are there for a reason. If the hospital wants to continue to use the system after being warned about possible failures that's their responsibility - I call it, risk management.",
+							"help":"You've discovered a bug during the integration testing - This is not unusual, but could have been prevented given better design practices. You have several options at your disposal. This choice, notifying the hospital of the bugs and releasing on time is a compromise between the needs of the hospital and the needs of your employer - This is a more responsible decision than just releasing it but there are better options a vailable."
 						},
 						{
 							"choice":"Delay system and test",
@@ -173,9 +173,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"In the long run, you're saving everyone money - Your employer will save heavy maintenance costs in having to patch the software on-site after installation, and the hospital will save money in lost calls and misappropriations.  It's a no brainer!",
+							"devil":"You're gonna get fired if you hold up the release date, since it's costing your employer valuable revenue to delay the installation. You also make your employer look incompetent to their customers. You do need a job, don't you?",
+							"help":"You've discovered a bug during the integration testing - This is not unusual, but could have been prevented given better design practices. You have several options at your disposal. This choice, delaying the system release until the bug has been eliminated, is the most ethical decision and possibly the hardest to implement. You are not the owner of the development company, and don't have the final say on releasing the software. You can however make a case to your employer that such a flaw in the software needs to be fixed before installation takes place."
 						}
 					]
 				},
@@ -205,9 +205,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"Honesty is the best policy, after all, and you should not shirk from responsibility if the software package did not perform as expected. The hospital will be glad to know that you are currently working on a solution to the problem.",
+							"devil":"Eek!  Why would you admit that you knew the problem already existed but installed the system anyway? This opens you and your employer up to lawsuits if the hospital lost a considerable amount of revenue in the meantime.",
+							"help":"6 months after installing the system, the hospital is reporting the same bug that you discovered during the integration testing. They wish to keep the system running if at all possible, but time is of the essence in repairing the problem. Your choice, notifying the hospital that a patch is being developed, admits that you knew the problem existed and are working to fix it as soon as possible. This may lead to legal issues of liability if the hospital attempts to recoup some of their investment in the system because of this error."
 						},
 						{
 							"choice":"Deny known problem, offer to work on a patch",
@@ -232,9 +232,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"You would lie to them to protect your investment in the system. While this is not the most moral choice, it certainly gives you a certain degree of protection against litigation by the hospital.",
+							"devil":"Offering to fix the problem is not the same as admitting liability - If the hospital believes that you did not know about the error previously they will be more supportive and appreciative of your attempts to fix the problem.",
+							"help":"6 months after installing the system, the hospital is reporting the same bug that you discovered during the integration testing. They wish to keep the system running if at all possible, but time is of the essence in repairing the problem. Your choice, denying that you knew the problem existed and offer to work on a patch is inconsistent with your ethical obligations. After all, you failed to notify the hospital of the expected problems and are now disavowing all knowledge of the error when in fact you knew all along it would become a problem. There are better solutions out there."
 						},
 						{
 							"choice":"Deny any responsibility and no offer",
@@ -259,9 +259,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"You can't deny that the system is faulty, but not offering to fix the problem? That's unconscionable!",
+							"devil":"The system works just as you've expected. You don't have to tell them that you gave them a faulty product and now they're paying the price.",
+							"help":"6 months after installing the system, the hospital is reporting the same bug that you discovered during the integration testing. They wish to keep the system running if at all possible, but time is of the essence in repairing the problem. Your choice, denying responsibility and not offering to fix the problem is completely unethical. It would be wise to seek a different choice in this scenario."
 						}
 					]
 				},
@@ -312,9 +312,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"Upper management has given you decision making power because they aren't sure of the severity of the bug themselves. Now is the time to make your stand? delay the system and fix the critical bug before the hospital has the opportunity to discover the error.",
+							"devil":"It's obvious that upper-management wants you to deploy the system, it's costing them money to delay! They've given you decision making responsibility because they're sure that if given enough rope you will in fact hang yourself.",
+							"help":"Until this point you have attempted to fix the problem that occurred during the integration testing. Notifying upper management did nothing to help matters, however, since they have deferred to your expertise. You have made the following choice: Deploy the system and work on a patch. This choice will please management by meeting deadlines but will possibly complicate matters once the system is installed and running. There are better options out there."
 						},
 						{
 							"choice":"Postpone system and try to remove bugs",
@@ -356,9 +356,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"In the long run, you're saving everyone money - Your employer will save heavy maintenance costs in having to patch the software on-site after installation, and the hospital will save money in lost calls and misappropriations. It's a no brainer!",
+							"devil":"Uh oh, upper management isn't going to like this one. Delaying the system is going to cost a bundle in lost revenue - It's only a matter of time before they don't like the answers you're giving and fire you!",
+							"help":"Until this point you have attempted to fix the problem that occurred during the integration testing. Notifying upper management did nothing to help matters, however, since they have deferred to your expertise. You have made the following choice: Postpone the system installation until the critical bug has been fixed. This choice is the most conservative one, but considering the safety critical nature of the system it is the safest one for everyone."
 						},
 						{
 							"choice":"Inform that bug is not really a big deal, no need to worry about it, do not work on patch",
@@ -400,9 +400,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"Misappropriation of hospital funds and resources are the most important issue that your client would face should you deploy the system giving them the false impression that it will work exactly as intended. Don't assume that bugs are natural and common - This one could easily cripple the hospital in time of crisis.",
+							"devil":"Well, if upper management doesn't think it's a critical bug, you shouldn't either. They have explored their options, and have given you the opportunity to go ahead and install the system?. Besides, bugs are to be expected in the first installation of a new system.",
+							"help":"Until this point you have attempted to fix the problem that occurred during the integration testing. Notifying upper management did nothing to help matters, however, since they have deferred to your expertise. You have made the following choice: Deploy the system and don't bother working on a patch. This decision is not ethically sound as you know the bug exists and you consider it a critical one at that. There are better choices out there."
 						}
 					]
 				},
@@ -453,9 +453,9 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"Stick to your guns!  This bug is obviously complex and your time was well spent in attempting to fix the problem? but it persists.  You obviously need more time to fix the problem.",
+							"devil":"Well, you gave it your best effort to fix the remaining bug, and in 3 months have been unable to do so.  If you delay the system even longer you run the risk of losing the contract as well as your job!",
+							"help":"Postponing the system by 3 months was not enough time for you to find and fix the problem. Now upper management is really applying pressure for you to release the system so that they won't lose any more time or resources. You have made the following choice: Deploy the system and work on a patch. While not the best solution, it is a compromise between the needs of your employer and the needs of your client."
 						},
 						{
 							"choice":"Refuse to deploy",
@@ -518,11 +518,43 @@
 									]
 								}
 							],
-							"angel":"",
-							"devil":"",
-							"help":""
+							"angel":"Disobeying your superiors should only be done in good conscience - If you believe that the problem is critical enough to go against the will of your employers then the client is better served by your decision.",
+							"devil":"If you can't fix the bug in 3 months, you are likely not going to be able to find the source of the problem unless the system is actually put into use - Why would you postpone yet again?",
+							"help":"Postponing the system by 3 months was not enough time for you to find and fix the problem. Now upper management is really applying pressure for you to release the system so that they won't lose any more time or resources. You have made the following choice: Refuse to deploy the system. This choice can be made in good conscience because it is an ethical decision that has the best interests of your client at heart."
 						}
 					]
+				},
+				{
+					"page":"MARCIIBug-ReportAware-41",
+					"passage":"Ever since you submitted the MARC II system as complete even though you were aware of a substantial error you have worked feverishly on a patch to complete the system before any harm can occur. You have come extremely close to completing a fix for the system when you hear that HeWell has reported the error to QCA. When you hear about this you inform QCA and the organization that you had knowledge of the bug and that you have almost completed a patch to fix the system. Upon hearing that you turned the system over as complete, even with a known bug, HeWell pulls the MARC II system contract from QCA citing negligence and breach of contract. QCA is shocked to hear of your blatant disregard for company policy and informs you in the nicest manner possible that you are no longer employed by Quality Computing Associates. The Ethical Simulator hopes that you have luck in finding a new job!"
+				},
+				{
+					"page":"MARCIIBug-DenyKnown-42",
+					"passage":"You begin working to correct the software system and make very good time since you already had an idea of what was causing the error. In very short order you have completed a patch that fixes the bug in the software. Once the patch has been applied the system passes all tests and over the next three months runs without one single glitch. Once again HeWell heaps praise on you for your great work. Six months later the organization begins the install of the system throughout the entire organization. During one of the installs a technician discovers evidence in your documentation that you in fact knew of the problem with the software before you submitted the software system as complete. With this new knowledge HeWell files lawsuits against QCA and you individually, claiming negligence. Needless to say you are also released from your position at QCA. The Ethical Simulator wishes you luck during your upcoming trial."
+				},
+				{
+					"page":"MARCIIBug-DenyResponsibility-43",
+					"passage":"After so long you had almost put the MARC II system out of your head, and now HeWell wants you to come back and fix the problem that you left in the system in the first place. You wish to avoid further complications with HeWell, so you tell them that the problem is not with the software, that the problem is probably an error with the MARC II itself and that you can do nothing about it. You also tell them that it is not possible for you to come in and give the system a thorough review to insure that the problem is not with the software because you are currently involved in a major project. The organization accepts your explanation and continues running the system while conferring with Remote Health Services, Inc. about possible errors with the MARC II. Remote Health Services, Inc. is able to show that there are no glitches in the MARC II and points out that the MARC II is being used successfully in other areas. They assert that the software system is the culprit here. One month after this the hospital and its owner, HeWell, are named in a lawsuit. Whenever emergency personnel are dispatched for a subscriber to the hospital's MARC II system the subscriber is charged a fee. These fees were charged even if the emergency was not real. In turn the organization name QCA and you individually in a lawsuit. The Ethical Simulator would like to wish you luck on your upcoming trial."
+				},
+				{
+					"page":"MARCIIBug-DeploySystem-51",
+					"passage":"You have told the HeWell that you feel it would be safe to deploy the system while continuing to work on a patch to fix the error. You do specify that this will only work if ways of working around the glitch can be found. You have suggested some ways to work around the glitch until you can complete a patch to remove the error and HeWell has accepted your proposal. All subscribers to the system have been notified that until the patch is complete automatic emergency response is not available. However, if an emergency is reported by the MARC II system the hospital will make every attempt possible to verify the emergency and if real then emergency personnel will be dispatched. The system goes operational and you continue to work on the problem. After three months you have finally completed the patch. The patch is applied and the system passes all tests. Six months later the software system has run continuously, offering all features without fail. HeWell has begun the deployment of the system throughout the entire organization. The patch was successful and so was the software system, your work has saved many lives. The Ethical Simulator wishes to congratulate you on your success."
+				},
+				{
+					"page":"MARCIIBug-PostponeSystem-52",
+					"passage":"You inform HeWell that the only safe way to proceed is to postpone the deployment of the system while you try to remove the bug. The hospital agrees with you and delays the system start. Three months later you have removed the glitch from the software and the system has passed all tests. The system goes into operation and for the next six months performs perfectly. HeWell then installs the software system organization wide and begins to utilize it on a wide scale. For the next year the system works almost flawlessly across the entire organization. The company is very pleased with both QCA and you. You receive a promotion from QCA and requests for QCA's services on MARC II systems begin to pour in. The Ethical Simulator would just like to say great job."
+				},
+				{
+					"page":"MARCIIBug-NoBigDeal-53",
+					"passage":"After informing HeWell that you feel the glitch will not cause any major problems with system performance and would be more cost effective to leave into the system you move on to other projects that QCA has. After the system has been running for six months HeWell must pull the plug on it. The system has progressively begun to report more and more false emergencies and since every time emergency personnel are dispatched the subscriber is charged a fee many subscribers have dropped the service. HeWell tried offering a cut-down version of the service, one minus the automatic emergency response, but cannot attract enough customers. HeWell has contacted QCA and informed them of the advice that you provided them with. Your supervisor calls you to the office and proceeds to tell you how you have hurt the reputation of QCA and how you have violated the code of ethics QCA subscribes to and company policy. After your supervisor is finished telling you of all the trouble you have caused you are also informed that you are fired. The Ethical Simulator wishes you luck in the unemployment line."
+				},
+				{
+					"page":"MARCIIBug-DeploySystem-61",
+					"passage":"You have agreed to HeWell's wish to deploy the system immediately. You and the organization have come up with some ways to work around the glitch until you can complete a patch to remove the error. All subscribers to the system have been notified that until the patch is complete automatic emergency response is not available. However, if an emergency is reported by the MARC II system the hospital will make every attempt possible to verify the emergency and if real then emergency personnel will be dispatched. The system goes operational and you continue to work on the problem. After three months you have finally completed the patch. The patch is applied and the system passes all tests. Six months later the software system has run continuously, offering all features without fail. HeWell has begun the deployment of the system throughout the entire organization. The patch was successful and so was the software system, your work has saved many lives. The Ethical Simulator wishes to congratulate you on a job well done."
+				},
+				{
+					"page":"MARCIIBug-Refuse-62",
+					"passage":"Upon hearing your refusal to sign off on the deployment of the MARC II software system HeWell contacts QCA complaining about your work and your refusal to deploy. QCA confers with you about your decisions and the reasoning behind them. After hearing you out, QCA sides with you and informs HeWell that they back your decision to refuse to sign off on the deployment. You once again meet with HeWell's upper management. You discuss with them your fears regarding what will happen if the system is deployed with the known bug in it. After hearing that QCA backs your decision and listening to your fear HeWell accepts your recommendations and decides to wait for the completed system. Three months later you have removed the error from the software system and it has passed all tests. After one year of operation the system has functioned remarkably well and has been of great benefit to quite a number of its subscribers. HeWell is preparing to begin the deployment of the software system organization wide. The Ethical Simulator would like to congratulate you on sticking to your guns."
 				}
 			]
 		}

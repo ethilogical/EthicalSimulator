@@ -1,21 +1,22 @@
 {
+	"source":"https://www.acm.org/code-of-ethics",
 	"categories": [
 		{
 			"category":"General Ethical Principles", 
-			"htmlID": "",
+			"htmlID": "h-1.-general-ethical-principles.",
 			"explanation":"",
 			"principles": [
 				{
 					"principle":"Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing.",
-					"htmlID": "",
+					"htmlID": "h-1.1-contribute-to-society-and-to-human-well-being,-acknowledging-that-all-people-are-stakeholders-in-computing.",
 					"guidance": [
 						{ 
 							"sentence": "This principle, which concerns the quality of life of all people, affirms an obligation of computing professionals, both individually and collectively, to use their skills for the benefit of society, its members, and the environment surrounding them.",
-							"keywords": ["benefit", "society", "environment", "life"] 
+							"keywords": ["benefit", "society", "environment", "quality of life", "collective action", "individual action"] 
 						},
 						{
 							"sentence": "This obligation includes promoting fundamental human rights and protecting each individual's right to autonomy.",
-							"keywords": ["human", "rights", "autonomy", "protecting", "right"] 
+							"keywords": ["promoting", "human rights", "protecting", "right to autonomy"] 
 						},
 						{ 
 							"sentence": "An essential aim of computing professionals is to minimize negative consequences of computing, including threats to health, safety, personal security, and privacy.",
@@ -23,29 +24,29 @@
 						},
 						{ 
 							"sentence": "When the interests of multiple groups conflict, the needs of those less advantaged should be given increased attention and priority.",
-							"keywords": ["advantaged", "groups", "conflict", "attention", "priority"] 
+							"keywords": ["less advantaged", "groups", "conflict", "attention", "priority"] 
 						},
 						{
 							"sentence": "Computing professionals should consider whether the results of their efforts will respect diversity, will be used in socially responsible ways, will meet social needs, and will be broadly accessible.",
-							"keywords": ["contribute", "society", "volunteer", "public", "good"] 
+							"keywords": ["respect", "diversity", "socially responsible", "accessible", "social needs"] 
 						}, 
 						{ 
 							"sentence": "They are encouraged to actively contribute to society by engaging in pro bono or volunteer work that benefits the public good.",
-							"keywords": ["social", "environment", "human", "well-being", "safe", "natural"] 
+							"keywords": ["contribute", "society", "pro bono", "volunteer", "public good"] 
 						},
 						{ 
 							"sentence": "In addition to a safe social environment, human well-being requires a safe natural environment.",
-							"keywords": ["promote", "environment", "sustainability", "locally", "globally"] 
+							"keywords": ["social environment", "human well-being", "safe", "natural environment"] 
 						},
 						{
 							"sentence": "Therefore, computing professionals should promote environmental sustainability both locally and globally.",
-							"keywords": []
+							"keywords": ["promote", "environment", "sustainability", "locally", "globally"]
 						}
 					]
 				},
 				{
 					"principle":"Avoid harm.",
-					"htmlID": "",
+					"htmlID": "h-1.2-avoid-harm.",
 					"guidance": [
 						{ 
 							"sentence": "In this document, \"harm\" means negative consequences, especially when those consequences are significant and unjust.",
@@ -53,7 +54,7 @@
 						},
 						{
 							"sentence": "Examples of harm include unjustified physical or mental injury, unjustified destruction or disclosure of information, and unjustified damage to property, reputation, and the environment.",
-							"keywords": ["unjustified", "physical", "mental", "injury", "destruction", "disclosure", "information", "damage", "property", "reputation", "environment"] 
+							"keywords": ["unjustified", "physical injury", "mental injury", "destruction", "disclosure of information", "damage", "property", "reputation", "environment"] 
 						},
 						{
 							"sentence": "This list is not exhaustive.",
@@ -61,7 +62,7 @@
 						},
 						{
 							"sentence": "Well-intended actions, including those that accomplish assigned duties, may lead to harm.",
-							"keywords": ["well-intended", "actions", "assigned", "duties", "harm"] 
+							"keywords": ["well-intended", "actions", "assigned duties", "duties", "harm"] 
 						},
 						{ 
 							"sentence": "When that harm is unintended, those responsible are obliged to undo or mitigate the harm as much as possible.",
@@ -111,7 +112,7 @@
 				},
 				{
 					"principle":"Be honest and trustworthy.",
-					"htmlID": "",
+					"htmlID": "h-1.3-be-honest-and-trustworthy.",
 					"guidance": [
 						{
 							"sentence": "Honesty is an essential component of trustworthiness.",
@@ -145,7 +146,7 @@
 				},
 				{
 					"principle":"Be fair and take action not to discriminate.",
-					"htmlID": "",
+					"htmlID": "h-1.4-be-fair-and-take-action-not-to-discriminate.",
 					"guidance": [
 						{
 							"sentence": "The values of equality, tolerance, respect for others, and justice govern this principle.",
@@ -183,7 +184,7 @@
 				},
 				{
 					"principle":"Respect the work required to produce new ideas, inventions, creative works, and computing artifacts.",
-					"htmlID": "",
+					"htmlID": "h-1.5-respect-the-work-required-to-produce-new-ideas,-inventions,-creative-works,-and-computing-artifacts.",
 					"guidance": [
 						{
 							"sentence": "Developing new ideas, inventions, creative works, and computing artifacts creates value for society, and those who expend this effort should expect to gain value from their work.",
@@ -217,7 +218,7 @@
 				},
 				{
 					"principle":"Respect privacy.",
-					"htmlID": "",
+					"htmlID": "h-1.6-respect-privacy.",
 					"guidance": [
 						{
 							"sentence": "The responsibility of respecting privacy applies to computing professionals in a particularly profound way.",
@@ -267,7 +268,7 @@
 				},
 				{
 					"principle":"Honor confidentiality.",
-					"htmlID": "",
+					"htmlID": "h-1.7-honor-confidentiality.",
 					"guidance": [
 						{
 							"sentence": "Computing professionals are often entrusted with confidential information such as trade secrets, client data, nonpublic business strategies, financial information, research data, pre-publication scholarly articles, and patent applications.",
@@ -291,12 +292,12 @@
 		},
 		{
 			"category":"Professional Responsibilities.", 
-			"htmlID": "",
+			"htmlID": "h-2.-professional-responsibilities.",
 			"explanation":"",
 			"principles": [
 				{
 					"principle":"Strive to achieve high quality in both the processes and products of professional work.",
-					"htmlID": "",
+					"htmlID": "h-2.1-strive-to-achieve-high-quality-in-both-the-processes-and-products-of-professional-work.",
 					"guidance": [
 						{
 							"sentence": "Computing professionals should insist on and support high quality work from themselves and from colleagues.",
@@ -318,7 +319,7 @@
 				},
 				{
 					"principle":"Maintain high standards of professional competence, conduct, and ethical practice.",
-					"htmlID": "",
+					"htmlID": "h-2.2-maintain-high-standards-of-professional-competence,-conduct,-and-ethical-practice.",
 					"guidance": [
 						{
 							"sentence": "High quality computing depends on individuals and teams who take personal and group responsibility for acquiring and maintaining professional competence.",
@@ -344,7 +345,7 @@
 				},
 				{
 					"principle":"Know and respect existing rules pertaining to professional work.",
-					"htmlID": "",
+					"htmlID": "h-2.3-know-and-respect-existing-rules-pertaining-to-professional-work.",
 					"guidance": [
 						{
 							"sentence": "\"Rules\" here include local, regional, national, and international laws and regulations, as well as any policies and procedures of the organizations to which the professional belongs.",
@@ -374,7 +375,7 @@
 				},
 				{
 					"principle":"Accept and provide appropriate professional review.",
-					"htmlID": "",
+					"htmlID": "h-2.4-accept-and-provide-appropriate-professional-review.",
 					"guidance": [
 						{
 							"sentence": "High quality professional work in computing depends on professional review at all stages.",
@@ -392,7 +393,7 @@
 				},
 				{
 					"principle":"Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks.",
-					"htmlID": "",
+					"htmlID": "h-2.5-give-comprehensive-and-thorough-evaluations-of-computer-systems-and-their-impacts,-including-analysis-of-possible-risks.",
 					"guidance": [
 						{
 							"sentence": "Computing professionals are in a position of trust, and therefore have a special responsibility to provide objective, credible evaluations and testimony to employers, employees, clients, users, and the public.",
@@ -418,7 +419,7 @@
 				},
 				{
 					"principle":"Perform work only in areas of competence.",
-					"htmlID": "",
+					"htmlID": "h-2.6-perform-work-only-in-areas-of-competence.",
 					"guidance": [
 						{
 							"sentence": "A computing professional is responsible for evaluating potential work assignments.",
@@ -444,7 +445,7 @@
 				},
 				{
 					"principle":"Foster public awareness and understanding of computing, related technologies, and their consequences.",
-					"htmlID": "",
+					"htmlID": "h-2.7-foster-public-awareness-and-understanding-of-computing,-related-technologies,-and-their-consequences.",
 					"guidance": [
 						{
 							"sentence": "As appropriate to the context and one's abilities, computing professionals should share technical knowledge with the public, foster awareness of computing, and encourage understanding of computing.",
@@ -466,7 +467,7 @@
 				},
 				{
 					"principle":"Access computing and communication resources only when authorized or when compelled by the public good.",
-					"htmlID": "",  
+					"htmlID": "h-2.8-access-computing-and-communication-resources-only-when-authorized-or-when-compelled-by-the-public-good.",  
 					"guidance": [
 						{
 							"sentence": "Individuals and organizations have the right to restrict access to their systems and data so long as the restrictions are consistent with other principles in the Code.",
@@ -488,7 +489,7 @@
 				},
 				{
 					"principle":"Design and implement systems that are robustly and usably secure.",
-					"htmlID": "",
+					"htmlID": "h-2.9-design-and-implement-systems-that-are-robustly-and-usably-secure.",
 					"guidance": [
 						{
 							"sentence": "Breaches of computer security cause harm.",
@@ -528,12 +529,12 @@
 		},
 		{
 			"category":"Professional Leadership Principles.", 
-			"htmlID": "",
+			"htmlID": "h-3.-professional-leadership-principles.",
 			"explanation":"Leadership may either be a formal designation or arise informally from influence over others. In this section, \"leader\" means any member of an organization or group who has influence, educational responsibilities, or managerial responsibilities. While these principles apply to all computing professionals, leaders bear a heightened responsibility to uphold and promote them, both within and through their organizations.",
 			"principles": [
 				{
 					"principle":"Ensure that the public good is the central concern during all professional computing work.",
-					"htmlID": "",
+					"htmlID": "h-3.1-ensure-that-the-public-good-is-the-central-concern-during-all-professional-computing-work.",
 					"guidance": [
 						{
 							"sentence": "People—including users, customers, colleagues, and others affected directly or indirectly—should always be the central concern in computing.",
@@ -551,7 +552,7 @@
 				},
 				{
 					"principle":"Articulate, encourage acceptance of, and evaluate fulfillment of social responsibilities by members of the organization or group.",
-					"htmlID": "",
+					"htmlID": "h-3.2-articulate,-encourage-acceptance-of,-and-evaluate-fulfillment-of-social-responsibilities-by-members-of-the-organization-or-group.",
 					"guidance": [ 
 						{
 							"sentence": "Technical organizations and groups affect broader society, and their leaders should accept the associated responsibilities.",
@@ -570,7 +571,7 @@
 				},
 				{
 					"principle":"Manage personnel and resources to enhance the quality of working life.",
-					"htmlID": "",
+					"htmlID": "h-3.3-manage-personnel-and-resources-to-enhance-the-quality-of-working-life.",
 					"guidance": [
 						{
 							"sentence": "Leaders should ensure that they enhance, not degrade, the quality of working life.",
@@ -588,7 +589,7 @@
 				},
 				{
 					"principle":"Articulate, apply, and support policies and processes that reflect the principles of the Code.",
-					"htmlID": "",
+					"htmlID": "h-3.4-articulate,-apply,-and-support-policies-and-processes-that-reflect-the-principles-of-the-code.",
 					"guidance": [
 						{
 							"sentence": "Leaders should pursue clearly defined organizational policies that are consistent with the Code and effectively communicate them to relevant stakeholders.",
@@ -606,7 +607,7 @@
 				},
 				{
 					"principle":"Create opportunities for members of the organization or group to grow as professionals.",
-					"htmlID": "",
+					"htmlID": "h-3.5-create-opportunities-for-members-of-the-organization-or-group-to-grow-as-professionals.",
 					"guidance": [
 						{
 							"sentence": "Educational opportunities are essential for all organization and group members.",
@@ -628,7 +629,7 @@
 				},
 				{
 					"principle":"Use care when modifying or retiring systems.",
-					"htmlID": "",
+					"htmlID": "h-3.6-use-care-when-modifying-or-retiring-systems.",
 					"guidance": [
 						{
 							"sentence": "Interface changes, the removal of features, and even software updates have an impact on the productivity of users and the quality of their work.",
@@ -658,7 +659,7 @@
 				},
 				{
 					"principle":"Recognize and take special care of systems that become integrated into the infrastructure of society.",
-					"htmlID": "",
+					"htmlID": "h-3.7-recognize-and-take-special-care-of-systems-that-become-integrated-into-the-infrastructure-of-society.",
 					"guidance": [
 						{
 							"sentence": "Even the simplest computer systems have the potential to impact all aspects of society when integrated with everyday activities such as commerce, travel, government, healthcare, and education.",
@@ -694,12 +695,12 @@
 		},
 		{
 			"category":"Compliance With The Code.", 
-			"htmlID": "",
+			"htmlID": "h-4.-compliance-with-the-code.",
 			"explanation":"",
 			"principles": [
 				{
 					"principle":"Uphold, promote, and respect the principles of the Code.",
-					"htmlID": "",
+					"htmlID": "h-4.1-uphold,-promote,-and-respect-the-principles-of-the-code.",
 					"guidance": [
 						{
 							"sentence": "The future of computing depends on both technical and ethical excellence.",
@@ -717,7 +718,7 @@
 				},
 				{
 					"principle":"Treat violations of the Code as inconsistent with membership in the ACM.",
-					"htmlID": "",
+					"htmlID": "h-4.2-treat-violations-of-the-code-as-inconsistent-with-membership-in-the-acm.",
 					"guidance": [
 						{
 							"sentence": "Each ACM member should encourage and support adherence by all computing professionals regardless of ACM membership.",
