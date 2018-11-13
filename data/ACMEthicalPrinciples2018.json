@@ -116,31 +116,31 @@
 					"guidance": [
 						{
 							"sentence": "Honesty is an essential component of trustworthiness.",
-							"keywords": []
+							"keywords": ["honesty", "trustworthiness"]
 						},
 						{
 							"sentence": "A computing professional should be transparent and provide full disclosure of all pertinent system capabilities, limitations, and potential problems to the appropriate parties.",
-							"keywords": []
+							"keywords": ["transparent", "full disclosure", "system capabilities", "system limitations", "problems"]
 						},
 						{
 							"sentence": "Making deliberately false or misleading claims, fabricating or falsifying data, offering or accepting bribes, and other dishonest conduct are violations of the Code.",
-							"keywords": []
+							"keywords": ["false", "misleading", "fabricating", "falsifying", "bribes", "dishonest conduct"]
 						},
 						{
 							"sentence": "Computing professionals should be honest about their qualifications, and about any limitations in their competence to complete a task.",
-							"keywords": []
+							"keywords": ["honest", "qualifications", "limitations", "competence"]
 						},
 						{
 							"sentence": "Computing professionals should be forthright about any circumstances that might lead to either real or perceived conflicts of interest or otherwise tend to undermine the independence of their judgment.",
-							"keywords": []
+							"keywords": ["forthright", "conflicts of interest", "undermine", "independence", "judgment"]
 						},
 						{
 							"sentence": "Furthermore, commitments should be honored.",
-							"keywords": []
+							"keywords": ["commitments", "honor"]
 						},
 						{
 							"sentence": "Computing professionals should not misrepresent an organization's policies or procedures, and should not speak on behalf of an organization unless authorized to do so",
-							"keywords": []
+							"keywords": ["misrepresent", "policies", "procedures", "speak on behalf", "organization", "authorized"]
 						}
 					]
 				},
