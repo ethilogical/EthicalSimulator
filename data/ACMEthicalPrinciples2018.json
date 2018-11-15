@@ -12,19 +12,99 @@
 					"guidance": [
 						{ 
 							"sentence": "This principle, which concerns the quality of life of all people, affirms an obligation of computing professionals, both individually and collectively, to use their skills for the benefit of society, its members, and the environment surrounding them.",
-							"keywords": ["benefit", "society", "environment", "quality of life", "collective action", "individual action"] 
+							"keywords": [
+								{
+									"keyword":"quality of life",
+									"relevance":3
+								}, 
+								{
+									"keyword":"collective action",
+									"relevance":1
+								},
+								{ 
+									"keyword":"individual action",
+									"relevance":1
+								},
+								{
+									"keyword":"benefit of society",
+									"relevance":2
+								}, 
+								{
+									"keyword":"environment",
+									"relevance":2
+								}
+							] 
 						},
 						{
 							"sentence": "This obligation includes promoting fundamental human rights and protecting each individual's right to autonomy.",
-							"keywords": ["promoting", "human rights", "protecting", "right to autonomy"] 
+							"keywords": [
+								{
+									"keyword":"promoting",
+									"relevance":2
+								}, 
+								{
+									"keyword":"human rights",
+									"relevance":3
+								}, 
+								{
+									"keyword":"protecting",
+									"relevance":2
+								},
+								{
+									"keyword":"right to autonomy",
+									"relevance":3
+								}
+							] 
 						},
 						{ 
 							"sentence": "An essential aim of computing professionals is to minimize negative consequences of computing, including threats to health, safety, personal security, and privacy.",
-							"keywords": ["consequences", "health", "safety", "security", "privacy"] 
+							"keywords": [
+								{
+									"keyword":"consequences",
+									"relevance":3
+								},
+								{
+									"keyword":"health",
+									"relevance":2
+								},
+								{
+									"keyword":"safety",
+									"relevance":2
+								}, 
+								{
+									"keyword":"security",
+									"relevance":2
+								}, 
+								{
+									"keyword":"privacy",
+									"relevance":2
+								}
+							] 
 						},
 						{ 
 							"sentence": "When the interests of multiple groups conflict, the needs of those less advantaged should be given increased attention and priority.",
-							"keywords": ["less advantaged", "groups", "conflict", "attention", "priority"] 
+							"keywords": [
+								{
+									"keyword":"groups",
+									"relevance":1
+								},
+								{
+									"keyword":"conflict",
+									"relevance":1
+								}, 
+								{
+									"keyword":"less advantaged",
+									"relevance":3
+								},
+								{								
+									"keyword":"attention",
+									"relevance":2
+								},
+								{
+									"keyword":"priority",
+									"relevance":2
+								}
+							] 
 						},
 						{
 							"sentence": "Computing professionals should consider whether the results of their efforts will respect diversity, will be used in socially responsible ways, will meet social needs, and will be broadly accessible.",
