@@ -136,7 +136,7 @@
 						},
 						{
 							"sentence": "Furthermore, commitments should be honored.",
-							"keywords": ["commitments", "honor"]
+							"keywords": ["commitments", "honored"]
 						},
 						{
 							"sentence": "Computing professionals should not misrepresent an organization's policies or procedures, and should not speak on behalf of an organization unless authorized to do so",
@@ -150,35 +150,35 @@
 					"guidance": [
 						{
 							"sentence": "The values of equality, tolerance, respect for others, and justice govern this principle.",
-							"keywords": []
+							"keywords": ["values", "equality", "tolerance", "respect for others", "justice"]
 						},
 						{
 							"sentence": "Fairness requires that even careful decision processes provide some avenue for redress of grievances.",
-							"keywords": []
+							"keywords": ["fairness", "careful", "decision process", "redress", "grievances"]
 						},
 						{
 							"sentence": "Computing professionals should foster fair participation of all people, including those of underrepresented groups.",
-							"keywords": []
+							"keywords": ["foster", "fair participation", "underrepresented groups"]
 						},
 						{
 							"sentence": "Prejudicial discrimination on the basis of age, color, disability, ethnicity, family status, gender identity, labor union membership, military status, nationality, race, religion or belief, sex, sexual orientation, or any other inappropriate factor is an explicit violation of the Code.",
-							"keywords": []
+							"keywords": ["Prejudicial discrimination", "age", "color", "disability", "ethnicity", "family status", "gender identity", "labor union membership", "military status", "nationality", "race", "religion", "belief", "sex", "sexual orientation", "inappropriate factor"]
 						},
 						{
 							"sentence": "Harassment, including sexual harassment, bullying, and other abuses of power and authority, is a form of discrimination that, amongst other harms, limits fair access to the virtual and physical spaces where such harassment takes place.",
-							"keywords": []
+							"keywords": ["harassment", "sexual harassment", "bullying", "abuse of power", "abuse of authority", "discrimination", "limit fair access", "virtual space", "physical space"]
 						},
 						{
 							"sentence": "The use of information and technology may cause new, or enhance existing, inequities.",
-							"keywords": []
+							"keywords": ["inequities"]
 						},
 						{
 							"sentence": "Technologies and practices should be as inclusive and accessible as possible and computing professionals should take action to avoid creating systems or technologies that disenfranchise or oppress people.",
-							"keywords": []
+							"keywords": ["inclusive", "accessible", "disenfranchise", "oppress"]
 						},
 						{
 							"sentence": "Failure to design for inclusiveness and accessibility may constitute unfair discrimination.",
-							"keywords": []
+							"keywords": ["design for inclusiveness", "design for accessibility", "unfair discrimination"]
 						}
 					]
 				},
@@ -188,31 +188,31 @@
 					"guidance": [
 						{
 							"sentence": "Developing new ideas, inventions, creative works, and computing artifacts creates value for society, and those who expend this effort should expect to gain value from their work.",
-							"keywords": []
+							"keywords": ["developing", "ideas", "inventions", "creative works", "computing artifacts", "value for society", "gain value"]
 						},
 						{
 							"sentence": "Computing professionals should therefore credit the creators of ideas, inventions, work, and artifacts, and respect copyrights, patents, trade secrets, license agreements, and other methods of protecting authors' works.",
-							"keywords": []
+							"keywords": ["credit creators", "ideas", "inventions", "work", "artifacts", "respect", "copyrights", "patents", "trade secrets", "license agreements"]
 						},
 						{
 							"sentence": "Both custom and the law recognize that some exceptions to a creator's control of a work are necessary for the public good.",
-							"keywords": []
+							"keywords": ["custom", "law", "exceptions", "creator control", "work", "public good"]
 						},
 						{
 							"sentence": "Computing professionals should not unduly oppose reasonable uses of their intellectual works.",
-							"keywords": []
+							"keywords": ["oppose", "reasonable use", "intellectual work"]
 						},
 						{
 							"sentence": "Efforts to help others by contributing time and energy to projects that help society illustrate a positive aspect of this principle.",
-							"keywords": []
+							"keywords": ["help others", "contribute time", "contribute energy", "help society"]
 						},
 						{
 							"sentence": "Such efforts include free and open source software and work put into the public domain.",
-							"keywords": []
+							"keywords": ["free", "open source", "software", "public domain"]
 						},
 						{
 							"sentence": "Computing professionals should not claim private ownership of work that they or others have shared as public resources.",
-							"keywords": []
+							"keywords": ["private ownership", "shared", "public resources"]
 						}
 					]
 				},
@@ -222,47 +222,47 @@
 					"guidance": [
 						{
 							"sentence": "The responsibility of respecting privacy applies to computing professionals in a particularly profound way.",
-							"keywords": []
+							"keywords": ["respect privacy"]
 						},
 						{
 							"sentence": "Technology enables the collection, monitoring, and exchange of personal information quickly, inexpensively, and often without the knowledge of the people affected.",
-							"keywords": []
+							"keywords": ["collection", "monitoring", "exchange", "personal information", ]
 						},
 						{
 							"sentence": "Therefore, a computing professional should become conversant in the various definitions and forms of privacy and should understand the rights and responsibilities associated with the collection and use of personal information.",
-							"keywords": []
+							"keywords": ["privacy", "rights", "responsibilities", "collection", "use", "personal information"]
 						},
 						{
 							"sentence": "Computing professionals should only use personal information for legitimate ends and without violating the rights of individuals and groups.",
-							"keywords": []
+							"keywords": ["personal information", "legitimate ends", "violating rights"]
 						},
 						{
 							"sentence": "This requires taking precautions to prevent re-identification of anonymized data or unauthorized data collection, ensuring the accuracy of data, understanding the provenance of the data, and protecting it from unauthorized access and accidental disclosure.",
-							"keywords": []
+							"keywords": ["precautions", "re-identification", "anonymized data", "unauthorized data", "collection", "accuracy", "provenance", "protect", "unauthorized access", "accidental disclosure"]
 						},
 						{
 							"sentence": "Computing professionals should establish transparent policies and procedures that allow individuals to understand what data is being collected and how it is being used, to give informed consent for automatic data collection, and to review, obtain, correct inaccuracies in, and delete their personal data.",
-							"keywords": []
+							"keywords": ["transparent", "policies", "procedures", "use of data", "informed consent", "automatic data collection", "review", "obtain", "correct inaccuracies", "delete", "personal data"]
 						},
 						{
 							"sentence": "Only the minimum amount of personal information necessary should be collected in a system.",
-							"keywords": []
+							"keywords": ["minimum amount", "personal information", "collected", "system"]
 						},
 						{
 							"sentence": "The retention and disposal periods for that information should be clearly defined, enforced, and communicated to data subjects.",
-							"keywords": []
+							"keywords": ["retention", "disposal", "clearly defined", "enforced", "communicated", "data subjects"]
 						},
 						{
 							"sentence": "Personal information gathered for a specific purpose should not be used for other purposes without the person's consent.",
-							"keywords": []
+							"keywords": ["personal information", "specific purpose", "consent"]
 						},
 						{
 							"sentence": "Merged data collections can compromise privacy features present in the original collections.",
-							"keywords": []
+							"keywords": ["merged data collections", "compromise privacy", "original collections"]
 						},
 						{
 							"sentence": "Therefore, computing professionals should take special care for privacy when merging data collections.",
-							"keywords": []
+							"keywords": ["special care", "privacy", "merging", "data collections"]
 						}
 					]
 				},
@@ -272,19 +272,19 @@
 					"guidance": [
 						{
 							"sentence": "Computing professionals are often entrusted with confidential information such as trade secrets, client data, nonpublic business strategies, financial information, research data, pre-publication scholarly articles, and patent applications.",
-							"keywords": []
+							"keywords": ["confidential", "information", "trade secrets", "client data", "nonpublic business strategies", "financial information", "research data", "pre-publication scholarly articles", "patent applications"]
 						},
 						{
 							"sentence": "Computing professionals should protect confidentiality except in cases where it is evidence of the violation of law, of organizational regulations, or of the Code.",
-							"keywords": []
+							"keywords": ["protect confidentiality", "evidence", "violation of law", "regulations"]
 						},
 						{
 							"sentence": "In these cases, the nature or contents of that information should not be disclosed except to appropriate authorities.",
-							"keywords": []
+							"keywords": ["nature of information", "contents of information", "disclosed", "appropriate authorities"]
 						},
 						{
 							"sentence": "A computing professional should consider thoughtfully whether such disclosures are consistent with the Code.",
-							"keywords": []
+							"keywords": ["disclosure"]
 						}
 					]
 				}
