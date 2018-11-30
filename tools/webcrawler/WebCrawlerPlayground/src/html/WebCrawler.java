@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.jsoup.Jsoup;
+import org.jsoup.Jsoup;				// The JSOUP library is designed specifically for html parsing
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -15,60 +15,62 @@ import org.jsoup.select.Elements;
 import image.ImageReceiver;
 
 public class WebCrawler {
-	private static Document htmlDocument;
-	private static HashSet<String> linksVisited = new HashSet<String>();
-	private static final String baseUrl = "https://web.archive.org/web/http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/";
-	private static String link = "";
-	private static Queue<String> linksToVisit = new LinkedList<String>();
+	private static Document htmlDocument;									// The document retrieved from the Web Archive to be parsed and saved
+	private static HashSet<String> linksVisited = new HashSet<String>();	// A HashSet to keep track of visited links so they don't get visited again
+	private static final String baseUrl = "https://web.archive.org/web/" + 	// The base url of Ethical Simulator in the Web Archive used for accessing...
+			"http://seeri.etsu.edu:80/Ethics/EthicalSimulator/1024/";		// ...the different html pages found while crawling the website
+	private static String link = "";										// Next html page to visit 
+	private static Queue<String> linksToVisit = new LinkedList<String>();	// A Queue used for adding found html pages so that they can be visited later
 	
 	public static void main (String [] args) throws Exception {
 		Elements scripts;
 		Elements images;
 		ImageReceiver saveImages = new ImageReceiver();
-		Matcher windowLocationMatcher;Pattern windowLocationPattern; 
+		Matcher windowLocationMatcher;
+		Pattern windowLocationPattern; 
 		
-		linksToVisit.add("index.html");
+		linksToVisit.add("index.html");		// Add the base html page to the Queue so there is a starting point
 		
 		while (!linksToVisit.isEmpty()) {
-			link = linksToVisit.remove();
+			link = linksToVisit.remove();	// Remove the next html page to visit and store it
 			
 			System.out.println("Visiting Page: " + link);
 			
 			try {	
-				htmlDocument = Jsoup.connect(baseUrl + link).timeout(0).userAgent("Chrome").get();
+				htmlDocument = Jsoup.connect(baseUrl + link)	// Connect to the next page and save the html for parsing / saving
+						.timeout(0).userAgent("Chrome").get();
 				
-				linksVisited.add(link);
+				linksVisited.add(link);							// Since we have successfully retrieved the html of this page we won't need to visit it again
 				
-				htmlDocument.select("div#wm-ipp").remove();
+				htmlDocument.select("div#wm-ipp").remove();		// This div is on every page and contains code injected by the Web Archive so it can be removed
 				
-				if (!link.contains("reset.htm")) {
+				if (!link.contains("reset.htm")) {				// The reset.htm page contained information, but nothing that the user could interact with so it can be skipped
 					searchForHref("a");
 					
 					searchForHref("area");
 					
-					scripts = htmlDocument.select("script");
+					scripts = htmlDocument.select("script");	// Select all the <script> elements to be searched for window.locations which contain html pages
 					
 					for (Element script: scripts) {
-						windowLocationPattern = Pattern.compile("(?is)window.location = \"(.+?)\"");
+						windowLocationPattern = Pattern.compile("(?is)window.location = \"(.+?)\"");	// This pattern along with a matcher finds any instances of window.location 
 						windowLocationMatcher = windowLocationPattern.matcher(script.html());
 						
-						while (windowLocationMatcher.find()) {
-							addLink(windowLocationMatcher.group(1));
+						while (windowLocationMatcher.find()) {			// Go through every occurrence of window.location in the current <script> element
+							addLink(windowLocationMatcher.group(1));	// .group(1) contains the html page that was going to be given to window.location
 						}
 					}
 				}
 				
-				saveImages.setDocument(htmlDocument);
+				saveImages.setDocument(htmlDocument);	// Give the Image Receiver the current html document so that the images on it can be saved
 				saveImages.run();
 				
-				images = htmlDocument.select("img");
+				images = htmlDocument.select("img");	// Select all the <img> elements in the html document
 					
 				for (Element image : images) {
 					String src = image.attr("src");
 			        String fileName = saveImages.getFileName(src);
 			           
 			        if (link.contains("Files/") || link.contains("files/")) {
-			        	
 			        	if (link.contains("Angel/") || link.contains("Help/") || link.contains("Computer/")) {
 			        		fileName = fileName.substring(fileName.indexOf("/") + 1, fileName.length());
 			        		fileName = "../" + fileName;
@@ -87,7 +89,7 @@ public class WebCrawler {
 				System.out.println(e.getMessage());
 			}
 			
-			Thread.sleep(45000);
+			Thread.sleep(45000);	// Without this delay the Web Archive would start to block connections made by this program
 			
 			System.out.println("");
 		}
