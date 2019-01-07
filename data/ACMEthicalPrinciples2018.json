@@ -381,19 +381,19 @@
 					"guidance": [
 						{
 							"sentence": "Computing professionals should insist on and support high quality work from themselves and from colleagues.",
-							"keywords": []
+							"keywords": ["insist", "support", "high quality work"]
 						},
 						{
 							"sentence": "The dignity of employers, employees, colleagues, clients, users, and anyone else affected either directly or indirectly by the work should be respected throughout the process.",
-							"keywords": []
+							"keywords": ["dignity", "affected by the work", "respect"]
 						},
 						{
 							"sentence": "Computing professionals should respect the right of those involved to transparent communication about the project.",
-							"keywords": []
+							"keywords": ["respect", "right", "transparent communication", "project"]
 						},
 						{
 							"sentence": "Professionals should be cognizant of any serious negative consequences affecting any stakeholder that may result from poor quality work and should resist inducements to neglect this responsibility.",
-							"keywords": []
+							"keywords": ["cognizant", "serious negative consequences" "stakeholder", "poor quality work", "resist", "neglect responsibility"]
 						}
 					]
 				},
@@ -403,23 +403,23 @@
 					"guidance": [
 						{
 							"sentence": "High quality computing depends on individuals and teams who take personal and group responsibility for acquiring and maintaining professional competence.",
-							"keywords": []
+							"keywords": ["high quality computing", "take responsibility", "professional competence"]
 						},
 						{
 							"sentence": "Professional competence starts with technical knowledge and with awareness of the social context in which their work may be deployed.",
-							"keywords": []
+							"keywords": ["professional competence", "technical knowledge", "social context"]
 						},
 						{
 							"sentence": "Professional competence also requires skill in communication, in reflective analysis, and in recognizing and navigating ethical challenges.",
-							"keywords": []
+							"keywords": ["professional competence", "communication", "reflective analysis", "ethical challenges"]
 						},
 						{
 							"sentence": "Upgrading skills should be an ongoing process and might include independent study, attending conferences or seminars, and other informal or formal education.",
-							"keywords": []
+							"keywords": ["upgrading skills", "independent study", "conferences", "seminars", "education"]
 						},
 						{
 							"sentence": "Professional organizations and employers should encourage and facilitate these activities.",
-							"keywords": []
+							"keywords": ["professional organizations", "professional employers", "encourage activities", "facilitate activities"]
 						}
 					]
 				},
@@ -429,27 +429,27 @@
 					"guidance": [
 						{
 							"sentence": "\"Rules\" here include local, regional, national, and international laws and regulations, as well as any policies and procedures of the organizations to which the professional belongs.",
-							"keywords": []
+							"keywords": ["rule", "law", "regulation", "policy", "procedure"]
 						},
 						{
 							"sentence": "Computing professionals must abide by these rules unless there is a compelling ethical justification to do otherwise.",
-							"keywords": []
+							"keywords": ["rule", "ethical justification"]
 						},
 						{
 							"sentence": "Rules that are judged unethical should be challenged.",
-							"keywords": []
+							"keywords": ["rule", "unethical", "challenge"]
 						},
 						{
 							"sentence": "A rule may be unethical when it has an inadequate moral basis or causes recognizable harm.",
-							"keywords": []
+							"keywords": ["rule", "unethical", "inadequate moral basis", "causes harm"]
 						},
 						{
 							"sentence": "A computing professional should consider challenging the rule through existing channels before violating the rule.",
-							"keywords": []
+							"keywords": ["challenge", "rule", "existing channels", "violate"]
 						},
 						{
 							"sentence": "A computing professional who decides to violate a rule because it is unethical, or for any other reason, must consider potential consequences and accept responsibility for that action.",
-							"keywords": []
+							"keywords": ["violate", "rule", "unethical", "potential consequences", "accept responsibility"]
 						}
 					]
 				},
@@ -459,15 +459,15 @@
 					"guidance": [
 						{
 							"sentence": "High quality professional work in computing depends on professional review at all stages.",
-							"keywords": []
+							"keywords": ["high quality professional work", "professional review"]
 						},
 						{
 							"sentence": "Whenever appropriate, computing professionals should seek and utilize peer and stakeholder review.",
-							"keywords": []
+							"keywords": ["peer review", "stakeholder review"]
 						},
 						{
 							"sentence": "Computing professionals should also provide constructive, critical reviews of others' work.",
-							"keywords": []
+							"keywords": ["constructive review", "critical review", "other work"]
 						}
 					]
 				},
@@ -477,7 +477,7 @@
 					"guidance": [
 						{
 							"sentence": "Computing professionals are in a position of trust, and therefore have a special responsibility to provide objective, credible evaluations and testimony to employers, employees, clients, users, and the public.",
-							"keywords": []
+							"keywords": ["position of trust", "objective evaluation", "credible evaluation", "objective testimony", "credible testimony"]
 						},
 						{
 							"sentence": "Computing professionals should strive to be perceptive, thorough, and objective when evaluating, recommending, and presenting system descriptions and alternatives.",
