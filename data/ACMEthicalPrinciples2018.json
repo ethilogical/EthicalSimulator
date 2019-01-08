@@ -477,23 +477,23 @@
 					"guidance": [
 						{
 							"sentence": "Computing professionals are in a position of trust, and therefore have a special responsibility to provide objective, credible evaluations and testimony to employers, employees, clients, users, and the public.",
-							"keywords": ["position of trust", "objective evaluation", "credible evaluation", "objective testimony", "credible testimony"]
+							"keywords": ["position of trust", "evaluation", "testimony"]
 						},
 						{
 							"sentence": "Computing professionals should strive to be perceptive, thorough, and objective when evaluating, recommending, and presenting system descriptions and alternatives.",
-							"keywords": []
+							"keywords": ["perceptive", "thorough", "objective", "evaluating", "recommending", "presenting", "description", "alternatives"]
 						},
 						{
 							"sentence": "Extraordinary care should be taken to identify and mitigate potential risks in machine learning systems.",
-							"keywords": []
+							"keywords": ["care", "potential risk", "machine learning systems"]
 						},
 						{
 							"sentence": "A system for which future risks cannot be reliably predicted requires frequent reassessment of risk as the system evolves in use, or it should not be deployed.",
-							"keywords": []
+							"keywords": ["system", "future", "risk", "predicted", "reassessment", "system evolves", "deployed"]
 						},
 						{
 							"sentence": "Any issues that might result in major risk must be reported to appropriate parties.",
-							"keywords": []
+							"keywords": ["issues", "major risk", "reported"]
 						}
 					]
 				},
@@ -503,23 +503,23 @@
 					"guidance": [
 						{
 							"sentence": "A computing professional is responsible for evaluating potential work assignments.",
-							"keywords": []
+							"keywords": ["evaluating", "assignment"]
 						},
 						{
 							"sentence": "This includes evaluating the work's feasibility and advisability, and making a judgment about whether the work assignment is within the professional's areas of competence.",
-							"keywords": []
+							"keywords": ["evaluate", "assignment", "feasibility", "advisability", "judgment", "competence"]
 						},
 						{
 							"sentence": "If at any time before or during the work assignment the professional identifies a lack of a necessary expertise, they must disclose this to the employer or client.",
-							"keywords": []
+							"keywords": ["assignment", "lack of expertise", "disclose"]
 						},
 						{
 							"sentence": "The client or employer may decide to pursue the assignment with the professional after additional time to acquire the necessary competencies, to pursue the assignment with someone else who has the required expertise, or to forgo the assignment.",
-							"keywords": []
+							"keywords": ["pursue", "additional time", "necessary competence", "expertise", "forgo"]
 						},
 						{
 							"sentence": "A computing professional's ethical judgment should be the final guide in deciding whether to work on the assignment.",
-							"keywords": []
+							"keywords": ["ethical judgment", "final guide", "assignment"]
 						}
 					]
 				},
@@ -529,19 +529,19 @@
 					"guidance": [
 						{
 							"sentence": "As appropriate to the context and one's abilities, computing professionals should share technical knowledge with the public, foster awareness of computing, and encourage understanding of computing.",
-							"keywords": []
+							"keywords": ["share", "technical knowledge", "public", "awareness", "understanding"]
 						},
 						{
 							"sentence": "These communications with the public should be clear, respectful, and welcoming.",
-							"keywords": []
+							"keywords": ["communication", "public"]
 						},
 						{
 							"sentence": "Important issues include the impacts of computer systems, their limitations, their vulnerabilities, and the opportunities that they present.",
-							"keywords": []
+							"keywords": ["impact", "computer system", "limitations", "vulnerabilities", "opportunities"]
 						},
 						{
 							"sentence": "Additionally, a computing professional should respectfully address inaccurate or misleading information related to computing.",
-							"keywords": []
+							"keywords": ["address", "inaccurate", "misleading", "information", "computing"]
 						}
 					]
 				},
@@ -551,19 +551,19 @@
 					"guidance": [
 						{
 							"sentence": "Individuals and organizations have the right to restrict access to their systems and data so long as the restrictions are consistent with other principles in the Code.",
-							"keywords": []
+							"keywords": ["restrict access", "system", "data"]
 						},
 						{
 							"sentence": "Consequently, computing professionals should not access another's computer system, software, or data without a reasonable belief that such an action would be authorized or a compelling belief that it is consistent with the public good.",
-							"keywords": []
+							"keywords": ["should not access", "another's", "computer system", "software", "data", "authorized", "public good"]
 						},
 						{
 							"sentence": "A system being publicly accessible is not sufficient grounds on its own to imply authorization.",
-							"keywords": []
+							"keywords": ["system", "publicly accessible", "not sufficient", "authorization"]
 						},
 						{
 							"sentence": "Under exceptional circumstances a computing professional may use unauthorized access to disrupt or inhibit the functioning of malicious systems; extraordinary precautions must be taken in these instances to avoid harm to others.",
-							"keywords": []
+							"keywords": ["unauthorized access", "malicious system", "precautions", "avoid harm"]
 						}
 					]
 				},
@@ -573,35 +573,35 @@
 					"guidance": [
 						{
 							"sentence": "Breaches of computer security cause harm.",
-							"keywords": []
+							"keywords": ["breach", "computer security", "harm"]
 						},
 						{
 							"sentence": "Robust security should be a primary consideration when designing and implementing systems.",
-							"keywords": []
+							"keywords": ["security", "design", "implement", "system"]
 						},
 						{
 							"sentence": "Computing professionals should perform due diligence to ensure the system functions as intended, and take appropriate action to secure resources against accidental and intentional misuse, modification, and denial of service.",
-							"keywords": []
+							"keywords": ["due diligence", "system", "functions as intended", "secure resources", "misuse", "modification", "denial of service"]
 						},
 						{
 							"sentence": "As threats can arise and change after a system is deployed, computing professionals should integrate mitigation techniques and policies, such as monitoring, patching, and vulnerability reporting.",
-							"keywords": []
+							"keywords": ["threat", "system", "deployed", "mitigation", "monitoring", "patching", "vulnerability reporting"]
 						},
 						{
 							"sentence": "Computing professionals should also take steps to ensure parties affected by data breaches are notified in a timely and clear manner, providing appropriate guidance and remediation.",
-							"keywords": []
+							"keywords": ["affected parties", "notified", "data breach", "guidance", "remediation"]
 						},
 						{
 							"sentence": "To ensure the system achieves its intended purpose, security features should be designed to be as intuitive and easy to use as possible.",
-							"keywords": []
+							"keywords": ["system", "purpose", "security features", "designed", "intuitive", "easy to use"]
 						},
 						{
 							"sentence": "Computing professionals should discourage security precautions that are too confusing, are situationally inappropriate, or otherwise inhibit legitimate use.",
-							"keywords": []
+							"keywords": ["discourage", "security precautions", "confusing", "situationally inappropriate", "inhibit use"]
 						},
 						{
 							"sentence": "In cases where misuse or harm are predictable or unavoidable, the best option may be to not implement the system.",
-							"keywords": []
+							"keywords": ["misuse", "harm", "predictable", "unavoidable", "not implement", "system"]
 						}
 					]
 				}
