@@ -1,0 +1,812 @@
+{
+	"source":"https://www.acm.org/code-of-ethics",
+	"categories": [
+		{
+			"category":"General Ethical Principles", 
+			"htmlID": "h-1.-general-ethical-principles.",
+			"explanation":"",
+			"principles": [
+				{
+					"principle":"Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing.",
+					"htmlID": "h-1.1-contribute-to-society-and-to-human-well-being,-acknowledging-that-all-people-are-stakeholders-in-computing.",
+					"guidance": [
+						{ 
+							"sentence": "This principle, which concerns the quality of life of all people, affirms an obligation of computing professionals, both individually and collectively, to use their skills for the benefit of society, its members, and the environment surrounding them.",
+							"keywords": [
+								{
+									"keyword":"quality of life",
+									"relevance":3
+								}, 
+								{
+									"keyword":"collective action",
+									"relevance":1
+								},
+								{ 
+									"keyword":"individual action",
+									"relevance":1
+								},
+								{
+									"keyword":"benefit of society",
+									"relevance":2
+								}, 
+								{
+									"keyword":"environment",
+									"relevance":2
+								}
+							] 
+						},
+						{
+							"sentence": "This obligation includes promoting fundamental human rights and protecting each individual's right to autonomy.",
+							"keywords": [ 
+								{
+									"keyword":"human rights",
+									"relevance":3
+								},
+								{
+									"keyword":"autonomy",
+									"relevance":3
+								}
+							] 
+						},
+						{ 
+							"sentence": "An essential aim of computing professionals is to minimize negative consequences of computing, including threats to health, safety, personal security, and privacy.",
+							"keywords": [
+								{
+									"keyword":"consequence",
+									"relevance":3
+								},
+								{
+									"keyword":"threat",
+									"relevance":3
+								},
+								{
+									"keyword":"health",
+									"relevance":2
+								},
+								{
+									"keyword":"safety",
+									"relevance":2
+								}, 
+								{
+									"keyword":"security",
+									"relevance":2
+								}, 
+								{
+									"keyword":"privacy",
+									"relevance":2
+								}
+							] 
+						},
+						{ 
+							"sentence": "When the interests of multiple groups conflict, the needs of those less advantaged should be given increased attention and priority.",
+							"keywords": [
+								{
+									"keyword":"groups",
+									"relevance":1
+								},
+								{
+									"keyword":"conflict",
+									"relevance":1
+								}, 
+								{
+									"keyword":"less advantaged",
+									"relevance":3
+								},
+								{								
+									"keyword":"attention",
+									"relevance":2
+								},
+								{
+									"keyword":"priority",
+									"relevance":2
+								}
+							] 
+						},
+						{
+							"sentence": "Computing professionals should consider whether the results of their efforts will respect diversity, will be used in socially responsible ways, will meet social needs, and will be broadly accessible.",
+							"keywords": ["diversity", "social responsibility", "social needs", "accessible"] 
+						}, 
+						{ 
+							"sentence": "They are encouraged to actively contribute to society by engaging in pro bono or volunteer work that benefits the public good.",
+							"keywords": ["contribute", "society", "pro bono", "volunteer", "public good"] 
+						},
+						{ 
+							"sentence": "In addition to a safe social environment, human well-being requires a safe natural environment.",
+							"keywords": ["social environment", "human well-being", "safe", "natural environment"] 
+						},
+						{
+							"sentence": "Therefore, computing professionals should promote environmental sustainability both locally and globally.",
+							"keywords": ["promote", "environmental sustainability", "locally", "globally"]
+						}
+					]
+				},
+				{
+					"principle":"Avoid harm.",
+					"htmlID": "h-1.2-avoid-harm.",
+					"guidance": [
+						{ 
+							"sentence": "In this document, \"harm\" means negative consequences, especially when those consequences are significant and unjust.",
+							"keywords": ["harm", "consequence", "significant",  "unjust", "negative"] 
+						},
+						{
+							"sentence": "Examples of harm include unjustified physical or mental injury, unjustified destruction or disclosure of information, and unjustified damage to property, reputation, and the environment.",
+							"keywords": ["unjustified", "physical injury", "mental injury", "destruction", "disclosure of information", "damage", "property", "reputation", "environment"] 
+						},
+						{
+							"sentence": "This list is not exhaustive.",
+							"keywords": [] 
+						},
+						{
+							"sentence": "Well-intended actions, including those that accomplish assigned duties, may lead to harm.",
+							"keywords": ["well-intended", "actions", "duties", "harm"] 
+						},
+						{ 
+							"sentence": "When that harm is unintended, those responsible are obliged to undo or mitigate the harm as much as possible.",
+							"keywords": ["harm", "unintended", "responsible", "obliged", "undo", "mitigate"] 
+						},
+						{ 
+							"sentence": "Avoiding harm begins with careful consideration of potential impacts on all those affected by decisions.",
+							"keywords": ["avoid", "harm", "consideration", "impact", "affected", "decisions"] 
+						},
+						{ 
+							"sentence": "When harm is an intentional part of the system, those responsible are obligated to ensure that the harm is ethically justified.",
+							"keywords": ["intentional", "system", "responsible", "obligated", "harm", "ethically justified"] 
+						},
+						{
+							"sentence": "In either case, ensure that all harm is minimized.",
+							"keywords": ["harm"] 
+						},
+						{
+							"sentence": "To minimize the possibility of indirectly or unintentionally harming others, computing professionals should follow generally accepted best practices unless there is a compelling ethical reason to do otherwise.",
+							"keywords": ["indirectly", "unintentionally", "harm", "best practice", "compelling ethical reason"] 
+						},
+						{
+							"sentence": "Additionally, the consequences of data aggregation and emergent properties of systems should be carefully analyzed.",
+							"keywords": ["consequences", "data aggregation", "emergent properties", "system", "analyzed"] 
+						},
+						{ 
+							"sentence": "Those involved with pervasive or infrastructure systems should also consider Principle 3.7.",
+							"keywords": ["pervasive system", "infrastructure system"] 
+						},
+						{ 
+							"sentence": "A computing professional has an additional obligation to report any signs of system risks that might result in harm.",
+							"keywords": ["obligation", "report", "system risk", "harm"] 
+						},
+						{ 
+							"sentence": "If leaders do not act to curtail or mitigate such risks, it may be necessary to \"blow the whistle\" to reduce potential harm.",
+							"keywords": ["leaders", "inaction", "curtail", "risk", "blow the whistle", "whistle blowing", "harm"] 
+						},
+						{ 
+							"sentence": "However, capricious or misguided reporting of risks can itself be harmful.",
+							"keywords": ["capricious", "misguided", "reporting risk", "harm"] 
+						},
+						{ 
+							"sentence": "Before reporting risks, a computing professional should carefully assess relevant aspects of the situation.",
+							"keywords": ["reporting risk", "assess", "aspects", "situation"] 
+						}
+					]
+				},
+				{
+					"principle":"Be honest and trustworthy.",
+					"htmlID": "h-1.3-be-honest-and-trustworthy.",
+					"guidance": [
+						{
+							"sentence": "Honesty is an essential component of trustworthiness.",
+							"keywords": ["honesty", "trustworthy"]
+						},
+						{
+							"sentence": "A computing professional should be transparent and provide full disclosure of all pertinent system capabilities, limitations, and potential problems to the appropriate parties.",
+							"keywords": ["transparent", "full disclosure", "system capability", "system limitation", "system problem"]
+						},
+						{
+							"sentence": "Making deliberately false or misleading claims, fabricating or falsifying data, offering or accepting bribes, and other dishonest conduct are violations of the Code.",
+							"keywords": ["false claim", "misleading claim", "fabricating data", "falsifying data", "bribes", "dishonest conduct"]
+						},
+						{
+							"sentence": "Computing professionals should be honest about their qualifications, and about any limitations in their competence to complete a task.",
+							"keywords": ["honest", "qualification", "limitation", "competence"]
+						},
+						{
+							"sentence": "Computing professionals should be forthright about any circumstances that might lead to either real or perceived conflicts of interest or otherwise tend to undermine the independence of their judgment.",
+							"keywords": ["forthright", "conflict of interest", "undermine", "independence", "judgment"]
+						},
+						{
+							"sentence": "Furthermore, commitments should be honored.",
+							"keywords": ["commitment", "honor"]
+						},
+						{
+							"sentence": "Computing professionals should not misrepresent an organization's policies or procedures, and should not speak on behalf of an organization unless authorized to do so",
+							"keywords": ["misrepresent", "policy", "procedure", "speak on behalf", "organization", "authorized"]
+						}
+					]
+				},
+				{
+					"principle":"Be fair and take action not to discriminate.",
+					"htmlID": "h-1.4-be-fair-and-take-action-not-to-discriminate.",
+					"guidance": [
+						{
+							"sentence": "The values of equality, tolerance, respect for others, and justice govern this principle.",
+							"keywords": ["values", "equality", "tolerance", "respect", "justice"]
+						},
+						{
+							"sentence": "Fairness requires that even careful decision processes provide some avenue for redress of grievances.",
+							"keywords": ["fairness", "decision process", "grievances"]
+						},
+						{
+							"sentence": "Computing professionals should foster fair participation of all people, including those of underrepresented groups.",
+							"keywords": ["foster", "fair participation", "underrepresented"]
+						},
+						{
+							"sentence": "Prejudicial discrimination on the basis of age, color, disability, ethnicity, family status, gender identity, labor union membership, military status, nationality, race, religion or belief, sex, sexual orientation, or any other inappropriate factor is an explicit violation of the Code.",
+							"keywords": ["prejudice", "discrimination", "age", "color", "disability", "ethnicity", "family status", "gender identity", "labor union membership", "military status", "nationality", "race", "religion", "belief", "sex", "sexual orientation", "inappropriate factor"]
+						},
+						{
+							"sentence": "Harassment, including sexual harassment, bullying, and other abuses of power and authority, is a form of discrimination that, amongst other harms, limits fair access to the virtual and physical spaces where such harassment takes place.",
+							"keywords": ["harassment", "sexual harassment", "bullying", "abuse of power", "abuse of authority", "discrimination", "fair access", "virtual space", "physical space"]
+						},
+						{
+							"sentence": "The use of information and technology may cause new, or enhance existing, inequities.",
+							"keywords": ["inequity"]
+						},
+						{
+							"sentence": "Technologies and practices should be as inclusive and accessible as possible and computing professionals should take action to avoid creating systems or technologies that disenfranchise or oppress people.",
+							"keywords": ["inclusive", "accessible", "disenfranchise", "oppress"]
+						},
+						{
+							"sentence": "Failure to design for inclusiveness and accessibility may constitute unfair discrimination.",
+							"keywords": ["design", "inclusive", "accessible", "discrimination"]
+						}
+					]
+				},
+				{
+					"principle":"Respect the work required to produce new ideas, inventions, creative works, and computing artifacts.",
+					"htmlID": "h-1.5-respect-the-work-required-to-produce-new-ideas,-inventions,-creative-works,-and-computing-artifacts.",
+					"guidance": [
+						{
+							"sentence": "Developing new ideas, inventions, creative works, and computing artifacts creates value for society, and those who expend this effort should expect to gain value from their work.",
+							"keywords": ["develop", "idea", "invention", "creative work", "computing artifact", "value", "society"]
+						},
+						{
+							"sentence": "Computing professionals should therefore credit the creators of ideas, inventions, work, and artifacts, and respect copyrights, patents, trade secrets, license agreements, and other methods of protecting authors' works.",
+							"keywords": ["credit creator", "idea", "invention", "work", "artifact", "respect", "copyright", "patent", "trade secret", "license agreement", "protecting work"]
+						},
+						{
+							"sentence": "Both custom and the law recognize that some exceptions to a creator's control of a work are necessary for the public good.",
+							"keywords": ["custom", "law", "exception", "creator control", "work", "public good"]
+						},
+						{
+							"sentence": "Computing professionals should not unduly oppose reasonable uses of their intellectual works.",
+							"keywords": ["oppose", "reasonable use", "intellectual work"]
+						},
+						{
+							"sentence": "Efforts to help others by contributing time and energy to projects that help society illustrate a positive aspect of this principle.",
+							"keywords": ["help others", "contribute time", "contribute energy", "help society"]
+						},
+						{
+							"sentence": "Such efforts include free and open source software and work put into the public domain.",
+							"keywords": ["free", "open source", "software", "public domain"]
+						},
+						{
+							"sentence": "Computing professionals should not claim private ownership of work that they or others have shared as public resources.",
+							"keywords": ["private ownership", "shared", "public resource"]
+						}
+					]
+				},
+				{
+					"principle":"Respect privacy.",
+					"htmlID": "h-1.6-respect-privacy.",
+					"guidance": [
+						{
+							"sentence": "The responsibility of respecting privacy applies to computing professionals in a particularly profound way.",
+							"keywords": ["respect privacy"]
+						},
+						{
+							"sentence": "Technology enables the collection, monitoring, and exchange of personal information quickly, inexpensively, and often without the knowledge of the people affected.",
+							"keywords": ["collection", "monitoring", "exchange", "personal information"]
+						},
+						{
+							"sentence": "Therefore, a computing professional should become conversant in the various definitions and forms of privacy and should understand the rights and responsibilities associated with the collection and use of personal information.",
+							"keywords": ["privacy", "rights", "responsibilities", "collection", "use", "personal information"]
+						},
+						{
+							"sentence": "Computing professionals should only use personal information for legitimate ends and without violating the rights of individuals and groups.",
+							"keywords": ["personal information", "legitimate ends", "violating rights"]
+						},
+						{
+							"sentence": "This requires taking precautions to prevent re-identification of anonymized data or unauthorized data collection, ensuring the accuracy of data, understanding the provenance of the data, and protecting it from unauthorized access and accidental disclosure.",
+							"keywords": ["precautions", "re-identification", "anonymized data", "unauthorized data", "collection", "accuracy", "provenance", "protect", "unauthorized access", "accidental disclosure"]
+						},
+						{
+							"sentence": "Computing professionals should establish transparent policies and procedures that allow individuals to understand what data is being collected and how it is being used, to give informed consent for automatic data collection, and to review, obtain, correct inaccuracies in, and delete their personal data.",
+							"keywords": ["transparent", "policies", "procedures", "use of data", "informed consent", "automatic data collection", "review", "obtain", "correct inaccuracies", "delete", "personal data"]
+						},
+						{
+							"sentence": "Only the minimum amount of personal information necessary should be collected in a system.",
+							"keywords": ["minimum amount", "personal information", "collected", "system"]
+						},
+						{
+							"sentence": "The retention and disposal periods for that information should be clearly defined, enforced, and communicated to data subjects.",
+							"keywords": ["retention", "disposal", "clearly defined", "enforced", "communicated", "data subjects"]
+						},
+						{
+							"sentence": "Personal information gathered for a specific purpose should not be used for other purposes without the person's consent.",
+							"keywords": ["personal information", "specific purpose", "consent"]
+						},
+						{
+							"sentence": "Merged data collections can compromise privacy features present in the original collections.",
+							"keywords": ["merged data collections", "compromise privacy", "original collections"]
+						},
+						{
+							"sentence": "Therefore, computing professionals should take special care for privacy when merging data collections.",
+							"keywords": ["special care", "privacy", "merging", "data collections"]
+						}
+					]
+				},
+				{
+					"principle":"Honor confidentiality.",
+					"htmlID": "h-1.7-honor-confidentiality.",
+					"guidance": [
+						{
+							"sentence": "Computing professionals are often entrusted with confidential information such as trade secrets, client data, nonpublic business strategies, financial information, research data, pre-publication scholarly articles, and patent applications.",
+							"keywords": ["confidential information", "trade secret", "client data", "nonpublic business strategy", "financial information", "research data", "pre-publication scholarly article", "patent application"]
+						},
+						{
+							"sentence": "Computing professionals should protect confidentiality except in cases where it is evidence of the violation of law, of organizational regulations, or of the Code.",
+							"keywords": ["confidentiality", "evidence", "law", "regulations"]
+						},
+						{
+							"sentence": "In these cases, the nature or contents of that information should not be disclosed except to appropriate authorities.",
+							"keywords": ["information", "disclosed", "authority"]
+						},
+						{
+							"sentence": "A computing professional should consider thoughtfully whether such disclosures are consistent with the Code.",
+							"keywords": ["disclosure"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"category":"Professional Responsibilities.", 
+			"htmlID": "h-2.-professional-responsibilities.",
+			"explanation":"",
+			"principles": [
+				{
+					"principle":"Strive to achieve high quality in both the processes and products of professional work.",
+					"htmlID": "h-2.1-strive-to-achieve-high-quality-in-both-the-processes-and-products-of-professional-work.",
+					"guidance": [
+						{
+							"sentence": "Computing professionals should insist on and support high quality work from themselves and from colleagues.",
+							"keywords": ["insist", "support", "high quality work"]
+						},
+						{
+							"sentence": "The dignity of employers, employees, colleagues, clients, users, and anyone else affected either directly or indirectly by the work should be respected throughout the process.",
+							"keywords": ["dignity", "affected by the work", "respect"]
+						},
+						{
+							"sentence": "Computing professionals should respect the right of those involved to transparent communication about the project.",
+							"keywords": ["respect", "right", "transparent communication", "project"]
+						},
+						{
+							"sentence": "Professionals should be cognizant of any serious negative consequences affecting any stakeholder that may result from poor quality work and should resist inducements to neglect this responsibility.",
+							"keywords": ["cognizant", "serious negative consequences", "stakeholder", "poor quality work", "resist", "neglect responsibility"]
+						}
+					]
+				},
+				{
+					"principle":"Maintain high standards of professional competence, conduct, and ethical practice.",
+					"htmlID": "h-2.2-maintain-high-standards-of-professional-competence,-conduct,-and-ethical-practice.",
+					"guidance": [
+						{
+							"sentence": "High quality computing depends on individuals and teams who take personal and group responsibility for acquiring and maintaining professional competence.",
+							"keywords": ["high quality computing", "take responsibility", "professional competence"]
+						},
+						{
+							"sentence": "Professional competence starts with technical knowledge and with awareness of the social context in which their work may be deployed.",
+							"keywords": ["professional competence", "technical knowledge", "social context"]
+						},
+						{
+							"sentence": "Professional competence also requires skill in communication, in reflective analysis, and in recognizing and navigating ethical challenges.",
+							"keywords": ["professional competence", "communication", "reflective analysis", "ethical challenges"]
+						},
+						{
+							"sentence": "Upgrading skills should be an ongoing process and might include independent study, attending conferences or seminars, and other informal or formal education.",
+							"keywords": ["upgrading skills", "independent study", "conferences", "seminars", "education"]
+						},
+						{
+							"sentence": "Professional organizations and employers should encourage and facilitate these activities.",
+							"keywords": ["professional organizations", "professional employers", "encourage activities", "facilitate activities"]
+						}
+					]
+				},
+				{
+					"principle":"Know and respect existing rules pertaining to professional work.",
+					"htmlID": "h-2.3-know-and-respect-existing-rules-pertaining-to-professional-work.",
+					"guidance": [
+						{
+							"sentence": "\"Rules\" here include local, regional, national, and international laws and regulations, as well as any policies and procedures of the organizations to which the professional belongs.",
+							"keywords": ["rule", "law", "regulation", "policy", "procedure"]
+						},
+						{
+							"sentence": "Computing professionals must abide by these rules unless there is a compelling ethical justification to do otherwise.",
+							"keywords": ["rule", "ethical justification"]
+						},
+						{
+							"sentence": "Rules that are judged unethical should be challenged.",
+							"keywords": ["rule", "unethical", "challenge"]
+						},
+						{
+							"sentence": "A rule may be unethical when it has an inadequate moral basis or causes recognizable harm.",
+							"keywords": ["rule", "unethical", "inadequate moral basis", "causes harm"]
+						},
+						{
+							"sentence": "A computing professional should consider challenging the rule through existing channels before violating the rule.",
+							"keywords": ["challenge", "rule", "existing channels", "violate"]
+						},
+						{
+							"sentence": "A computing professional who decides to violate a rule because it is unethical, or for any other reason, must consider potential consequences and accept responsibility for that action.",
+							"keywords": ["violate", "rule", "unethical", "potential consequences", "accept responsibility"]
+						}
+					]
+				},
+				{
+					"principle":"Accept and provide appropriate professional review.",
+					"htmlID": "h-2.4-accept-and-provide-appropriate-professional-review.",
+					"guidance": [
+						{
+							"sentence": "High quality professional work in computing depends on professional review at all stages.",
+							"keywords": ["high quality professional work", "professional review"]
+						},
+						{
+							"sentence": "Whenever appropriate, computing professionals should seek and utilize peer and stakeholder review.",
+							"keywords": ["peer review", "stakeholder review"]
+						},
+						{
+							"sentence": "Computing professionals should also provide constructive, critical reviews of others' work.",
+							"keywords": ["constructive review", "critical review", "other work"]
+						}
+					]
+				},
+				{
+					"principle":"Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks.",
+					"htmlID": "h-2.5-give-comprehensive-and-thorough-evaluations-of-computer-systems-and-their-impacts,-including-analysis-of-possible-risks.",
+					"guidance": [
+						{
+							"sentence": "Computing professionals are in a position of trust, and therefore have a special responsibility to provide objective, credible evaluations and testimony to employers, employees, clients, users, and the public.",
+							"keywords": ["position of trust", "evaluation", "testimony"]
+						},
+						{
+							"sentence": "Computing professionals should strive to be perceptive, thorough, and objective when evaluating, recommending, and presenting system descriptions and alternatives.",
+							"keywords": ["perceptive", "thorough", "objective", "evaluating", "recommending", "presenting", "description", "alternatives"]
+						},
+						{
+							"sentence": "Extraordinary care should be taken to identify and mitigate potential risks in machine learning systems.",
+							"keywords": ["care", "potential risk", "machine learning systems"]
+						},
+						{
+							"sentence": "A system for which future risks cannot be reliably predicted requires frequent reassessment of risk as the system evolves in use, or it should not be deployed.",
+							"keywords": ["system", "future", "risk", "predicted", "reassessment", "system evolves", "deployed"]
+						},
+						{
+							"sentence": "Any issues that might result in major risk must be reported to appropriate parties.",
+							"keywords": ["issues", "major risk", "reported"]
+						}
+					]
+				},
+				{
+					"principle":"Perform work only in areas of competence.",
+					"htmlID": "h-2.6-perform-work-only-in-areas-of-competence.",
+					"guidance": [
+						{
+							"sentence": "A computing professional is responsible for evaluating potential work assignments.",
+							"keywords": ["evaluating", "assignment"]
+						},
+						{
+							"sentence": "This includes evaluating the work's feasibility and advisability, and making a judgment about whether the work assignment is within the professional's areas of competence.",
+							"keywords": ["evaluate", "assignment", "feasibility", "advisability", "judgment", "competence"]
+						},
+						{
+							"sentence": "If at any time before or during the work assignment the professional identifies a lack of a necessary expertise, they must disclose this to the employer or client.",
+							"keywords": ["assignment", "lack of expertise", "disclose"]
+						},
+						{
+							"sentence": "The client or employer may decide to pursue the assignment with the professional after additional time to acquire the necessary competencies, to pursue the assignment with someone else who has the required expertise, or to forgo the assignment.",
+							"keywords": ["pursue", "additional time", "necessary competence", "expertise", "forgo"]
+						},
+						{
+							"sentence": "A computing professional's ethical judgment should be the final guide in deciding whether to work on the assignment.",
+							"keywords": ["ethical judgment", "final guide", "assignment"]
+						}
+					]
+				},
+				{
+					"principle":"Foster public awareness and understanding of computing, related technologies, and their consequences.",
+					"htmlID": "h-2.7-foster-public-awareness-and-understanding-of-computing,-related-technologies,-and-their-consequences.",
+					"guidance": [
+						{
+							"sentence": "As appropriate to the context and one's abilities, computing professionals should share technical knowledge with the public, foster awareness of computing, and encourage understanding of computing.",
+							"keywords": ["share", "technical knowledge", "public", "awareness", "understanding"]
+						},
+						{
+							"sentence": "These communications with the public should be clear, respectful, and welcoming.",
+							"keywords": ["communication", "public"]
+						},
+						{
+							"sentence": "Important issues include the impacts of computer systems, their limitations, their vulnerabilities, and the opportunities that they present.",
+							"keywords": ["impact", "computer system", "limitations", "vulnerabilities", "opportunities"]
+						},
+						{
+							"sentence": "Additionally, a computing professional should respectfully address inaccurate or misleading information related to computing.",
+							"keywords": ["address", "inaccurate", "misleading", "information", "computing"]
+						}
+					]
+				},
+				{
+					"principle":"Access computing and communication resources only when authorized or when compelled by the public good.",
+					"htmlID": "h-2.8-access-computing-and-communication-resources-only-when-authorized-or-when-compelled-by-the-public-good.",  
+					"guidance": [
+						{
+							"sentence": "Individuals and organizations have the right to restrict access to their systems and data so long as the restrictions are consistent with other principles in the Code.",
+							"keywords": ["restrict access", "system", "data"]
+						},
+						{
+							"sentence": "Consequently, computing professionals should not access another's computer system, software, or data without a reasonable belief that such an action would be authorized or a compelling belief that it is consistent with the public good.",
+							"keywords": ["should not access", "another's", "computer system", "software", "data", "authorized", "public good"]
+						},
+						{
+							"sentence": "A system being publicly accessible is not sufficient grounds on its own to imply authorization.",
+							"keywords": ["system", "publicly accessible", "not sufficient", "authorization"]
+						},
+						{
+							"sentence": "Under exceptional circumstances a computing professional may use unauthorized access to disrupt or inhibit the functioning of malicious systems; extraordinary precautions must be taken in these instances to avoid harm to others.",
+							"keywords": ["unauthorized access", "malicious system", "precautions", "avoid harm"]
+						}
+					]
+				},
+				{
+					"principle":"Design and implement systems that are robustly and usably secure.",
+					"htmlID": "h-2.9-design-and-implement-systems-that-are-robustly-and-usably-secure.",
+					"guidance": [
+						{
+							"sentence": "Breaches of computer security cause harm.",
+							"keywords": ["breach", "computer security", "harm"]
+						},
+						{
+							"sentence": "Robust security should be a primary consideration when designing and implementing systems.",
+							"keywords": ["security", "design", "implement", "system"]
+						},
+						{
+							"sentence": "Computing professionals should perform due diligence to ensure the system functions as intended, and take appropriate action to secure resources against accidental and intentional misuse, modification, and denial of service.",
+							"keywords": ["due diligence", "system", "functions as intended", "secure resources", "misuse", "modification", "denial of service"]
+						},
+						{
+							"sentence": "As threats can arise and change after a system is deployed, computing professionals should integrate mitigation techniques and policies, such as monitoring, patching, and vulnerability reporting.",
+							"keywords": ["threat", "system", "deployed", "mitigation", "monitoring", "patching", "vulnerability reporting"]
+						},
+						{
+							"sentence": "Computing professionals should also take steps to ensure parties affected by data breaches are notified in a timely and clear manner, providing appropriate guidance and remediation.",
+							"keywords": ["affected parties", "notified", "data breach", "guidance", "remediation"]
+						},
+						{
+							"sentence": "To ensure the system achieves its intended purpose, security features should be designed to be as intuitive and easy to use as possible.",
+							"keywords": ["system", "purpose", "security features", "designed", "intuitive", "easy to use"]
+						},
+						{
+							"sentence": "Computing professionals should discourage security precautions that are too confusing, are situationally inappropriate, or otherwise inhibit legitimate use.",
+							"keywords": ["discourage", "security precautions", "confusing", "situationally inappropriate", "inhibit use"]
+						},
+						{
+							"sentence": "In cases where misuse or harm are predictable or unavoidable, the best option may be to not implement the system.",
+							"keywords": ["misuse", "harm", "predictable", "unavoidable", "not implement", "system"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"category":"Professional Leadership Principles.", 
+			"htmlID": "h-3.-professional-leadership-principles.",
+			"explanation":"Leadership may either be a formal designation or arise informally from influence over others. In this section, \"leader\" means any member of an organization or group who has influence, educational responsibilities, or managerial responsibilities. While these principles apply to all computing professionals, leaders bear a heightened responsibility to uphold and promote them, both within and through their organizations.",
+			"principles": [
+				{
+					"principle":"Ensure that the public good is the central concern during all professional computing work.",
+					"htmlID": "h-3.1-ensure-that-the-public-good-is-the-central-concern-during-all-professional-computing-work.",
+					"guidance": [
+						{
+							"sentence": "People—including users, customers, colleagues, and others affected directly or indirectly—should always be the central concern in computing.",
+							"keywords": []
+						},
+						{
+							"sentence": "The public good should always be an explicit consideration when evaluating tasks associated with research, requirements analysis, design, implementation, testing, validation, deployment, maintenance, retirement, and disposal.",
+							"keywords": []
+						},
+						{
+							"sentence": "Computing professionals should keep this focus no matter which methodologies or techniques they use in their practice.",
+							"keywords": []
+						}
+					]
+				},
+				{
+					"principle":"Articulate, encourage acceptance of, and evaluate fulfillment of social responsibilities by members of the organization or group.",
+					"htmlID": "h-3.2-articulate,-encourage-acceptance-of,-and-evaluate-fulfillment-of-social-responsibilities-by-members-of-the-organization-or-group.",
+					"guidance": [ 
+						{
+							"sentence": "Technical organizations and groups affect broader society, and their leaders should accept the associated responsibilities.",
+							"keywords": []
+						},
+						{
+							"sentence": "Organizations—through procedures and attitudes oriented toward quality, transparency, and the welfare of society—reduce harm to the public and raise awareness of the influence of technology in our lives.",
+							"keywords": []
+						},
+						{
+							"sentence": "Therefore, leaders should encourage full participation of computing professionals in meeting relevant social responsibilities and discourage tendencies to do otherwise.",
+							"keywords": []
+						}
+						
+					]
+				},
+				{
+					"principle":"Manage personnel and resources to enhance the quality of working life.",
+					"htmlID": "h-3.3-manage-personnel-and-resources-to-enhance-the-quality-of-working-life.",
+					"guidance": [
+						{
+							"sentence": "Leaders should ensure that they enhance, not degrade, the quality of working life.",
+							"keywords": []
+						},
+						{
+							"sentence": "Leaders should consider the personal and professional development, accessibility requirements, physical safety, psychological well-being, and human dignity of all workers.",
+							"keywords": []
+						},
+						{
+							"sentence": "Appropriate human-computer ergonomic standards should be used in the workplace.",
+							"keywords": []
+						}
+					]
+				},
+				{
+					"principle":"Articulate, apply, and support policies and processes that reflect the principles of the Code.",
+					"htmlID": "h-3.4-articulate,-apply,-and-support-policies-and-processes-that-reflect-the-principles-of-the-code.",
+					"guidance": [
+						{
+							"sentence": "Leaders should pursue clearly defined organizational policies that are consistent with the Code and effectively communicate them to relevant stakeholders.",
+							"keywords": []
+						},
+						{
+							"sentence": "In addition, leaders should encourage and reward compliance with those policies, and take appropriate action when policies are violated.",
+							"keywords": []
+						},
+						{
+							"sentence": "Designing or implementing processes that deliberately or negligently violate, or tend to enable the violation of, the Code's principles is ethically unacceptable.",
+							"keywords": []
+						}
+					]
+				},
+				{
+					"principle":"Create opportunities for members of the organization or group to grow as professionals.",
+					"htmlID": "h-3.5-create-opportunities-for-members-of-the-organization-or-group-to-grow-as-professionals.",
+					"guidance": [
+						{
+							"sentence": "Educational opportunities are essential for all organization and group members.",
+							"keywords": []
+						},
+						{
+							"sentence": "Leaders should ensure that opportunities are available to computing professionals to help them improve their knowledge and skills in professionalism, in the practice of ethics, and in their technical specialties.",
+							"keywords": []
+						},
+						{
+							"sentence": "These opportunities should include experiences that familiarize computing professionals with the consequences and limitations of particular types of systems.",
+							"keywords": []
+						},
+						{
+							"sentence": "Computing professionals should be fully aware of the dangers of oversimplified approaches, the improbability of anticipating every possible operating condition, the inevitability of software errors, the interactions of systems and their contexts, and other issues related to the complexity of their profession—and thus be confident in taking on responsibilities for the work that they do.",
+							"keywords": []
+						}
+					]
+				},
+				{
+					"principle":"Use care when modifying or retiring systems.",
+					"htmlID": "h-3.6-use-care-when-modifying-or-retiring-systems.",
+					"guidance": [
+						{
+							"sentence": "Interface changes, the removal of features, and even software updates have an impact on the productivity of users and the quality of their work.",
+							"keywords": []
+						},
+						{
+							"sentence": "Leaders should take care when changing or discontinuing support for system features on which people still depend.",
+							"keywords": []
+						},
+						{
+							"sentence": "Leaders should thoroughly investigate viable alternatives to removing support for a legacy system.",
+							"keywords": []
+						},
+						{
+							"sentence": "If these alternatives are unacceptably risky or impractical, the developer should assist stakeholders' graceful migration from the system to an alternative.",
+							"keywords": []
+						},
+						{
+							"sentence": "Users should be notified of the risks of continued use of the unsupported system long before support ends.",
+							"keywords": []
+						},
+						{
+							"sentence": "Computing professionals should assist system users in monitoring the operational viability of their computing systems, and help them understand that timely replacement of inappropriate or outdated features or entire systems may be needed.",
+							"keywords": []
+						}
+					]
+				},
+				{
+					"principle":"Recognize and take special care of systems that become integrated into the infrastructure of society.",
+					"htmlID": "h-3.7-recognize-and-take-special-care-of-systems-that-become-integrated-into-the-infrastructure-of-society.",
+					"guidance": [
+						{
+							"sentence": "Even the simplest computer systems have the potential to impact all aspects of society when integrated with everyday activities such as commerce, travel, government, healthcare, and education.",
+							"keywords": []
+						},
+						{
+							"sentence": "When organizations and groups develop systems that become an important part of the infrastructure of society, their leaders have an added responsibility to be good stewards of these systems.",
+							"keywords": []
+						},
+						{
+							"sentence": "Part of that stewardship requires establishing policies for fair system access, including for those who may have been excluded.",
+							"keywords": []
+						},
+						{
+							"sentence": "That stewardship also requires that computing professionals monitor the level of integration of their systems into the infrastructure of society.",
+							"keywords": []
+						},
+						{
+							"sentence": "As the level of adoption changes, the ethical responsibilities of the organization or group are likely to change as well.",
+							"keywords": []
+						},
+						{
+							"sentence": "Continual monitoring of how society is using a system will allow the organization or group to remain consistent with their ethical obligations outlined in the Code.",
+							"keywords": []
+						},
+						{
+							"sentence": "When appropriate standards of care do not exist, computing professionals have a duty to ensure they are developed.",
+							"keywords": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"category":"Compliance With The Code.", 
+			"htmlID": "h-4.-compliance-with-the-code.",
+			"explanation":"",
+			"principles": [
+				{
+					"principle":"Uphold, promote, and respect the principles of the Code.",
+					"htmlID": "h-4.1-uphold,-promote,-and-respect-the-principles-of-the-code.",
+					"guidance": [
+						{
+							"sentence": "The future of computing depends on both technical and ethical excellence.",
+							"keywords": []
+						},
+						{
+							"sentence": "Computing professionals should adhere to the principles of the Code and contribute to improving them.",
+							"keywords": []
+						},
+						{
+							"sentence": "Computing professionals who recognize breaches of the Code should take actions to resolve the ethical issues they recognize, including, when reasonable, expressing their concern to the person or persons thought to be violating the Code.",
+							"keywords": []
+						}
+					]
+				},
+				{
+					"principle":"Treat violations of the Code as inconsistent with membership in the ACM.",
+					"htmlID": "h-4.2-treat-violations-of-the-code-as-inconsistent-with-membership-in-the-acm.",
+					"guidance": [
+						{
+							"sentence": "Each ACM member should encourage and support adherence by all computing professionals regardless of ACM membership.",
+							"keywords": []
+						},
+						{
+							"sentence": "ACM members who recognize a breach of the Code should consider reporting the violation to the ACM, which may result in remedial action as specified in the ACM's Code of Ethics and Professional Conduct Enforcement Policy.",
+							"keywords": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
