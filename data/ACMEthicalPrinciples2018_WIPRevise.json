@@ -175,11 +175,11 @@
 						},
 						{
 							"sentence": "A computing professional should be transparent and provide full disclosure of all pertinent system capabilities, limitations, and potential problems to the appropriate parties.",
-							"keywords": ["transparent", "full disclosure", "system capability", "system limitation", "system problem"]
+							"keywords": ["transparency", "full disclosure", "system properties"]
 						},
 						{
 							"sentence": "Making deliberately false or misleading claims, fabricating or falsifying data, offering or accepting bribes, and other dishonest conduct are violations of the Code.",
-							"keywords": ["false claim", "misleading claim", "fabricating data", "falsifying data", "bribes", "dishonest conduct"]
+							"keywords": ["honesty", "data fabrication", "data falsification", "bribe", "dishonest conduct"]
 						},
 						{
 							"sentence": "Computing professionals should be honest about their qualifications, and about any limitations in their competence to complete a task.",
@@ -195,7 +195,7 @@
 						},
 						{
 							"sentence": "Computing professionals should not misrepresent an organization's policies or procedures, and should not speak on behalf of an organization unless authorized to do so",
-							"keywords": ["misrepresent", "policy", "procedure", "organizational representation", "authorized"]
+							"keywords": ["misrepresent", "policy", "procedure", "organizational representation", "organization", "authorization"]
 						}
 					]
 				},
@@ -209,15 +209,15 @@
 						},
 						{
 							"sentence": "Fairness requires that even careful decision processes provide some avenue for redress of grievances.",
-							"keywords": ["fairness", "decision process", "grievances"]
+							"keywords": ["fairness", "decision process", "harm mitigation"]
 						},
 						{
 							"sentence": "Computing professionals should foster fair participation of all people, including those of underrepresented groups.",
-							"keywords": ["fair participation", "underrepresented"]
+							"keywords": ["fair participation", "underrepresented groups"]
 						},
 						{
 							"sentence": "Prejudicial discrimination on the basis of age, color, disability, ethnicity, family status, gender identity, labor union membership, military status, nationality, race, religion or belief, sex, sexual orientation, or any other inappropriate factor is an explicit violation of the Code.",
-							"keywords": ["discrimination", "age", "color", "disability", "ethnicity", "family status", "gender identity", "labor union membership", "military status", "nationality", "race", "religion", "belief", "sex", "sexual orientation", "inappropriate factor"]
+							"keywords": ["discrimination", "age", "color", "disability", "ethnicity", "family status", "gender identity", "labor union membership", "military status", "nationality", "race", "religion", "belief", "sex", "sexual orientation", "inappropriate factor", "protected classes"]
 						},
 						{
 							"sentence": "Harassment, including sexual harassment, bullying, and other abuses of power and authority, is a form of discrimination that, amongst other harms, limits fair access to the virtual and physical spaces where such harassment takes place.",
@@ -243,19 +243,19 @@
 					"guidance": [
 						{
 							"sentence": "Developing new ideas, inventions, creative works, and computing artifacts creates value for society, and those who expend this effort should expect to gain value from their work.",
-							"keywords": ["develop", "idea", "invention", "creative work", "computing artifact", "value", "society"]
+							"keywords": ["develop", "idea", "invention", "creative work", "computing artifact", "society"]
 						},
 						{
 							"sentence": "Computing professionals should therefore credit the creators of ideas, inventions, work, and artifacts, and respect copyrights, patents, trade secrets, license agreements, and other methods of protecting authors' works.",
-							"keywords": ["credit creator", "idea", "invention", "work", "artifact", "respect", "copyright", "patent", "trade secret", "license agreement", "protecting work"]
+							"keywords": ["credit creator", "idea", "invention", "work", "artifact", "respect", "copyright", "patent", "trade secret", "license agreement", "protecting work", "intellectual property"]
 						},
 						{
 							"sentence": "Both custom and the law recognize that some exceptions to a creator's control of a work are necessary for the public good.",
-							"keywords": ["custom", "law", "exception", "creator control", "work", "public good"]
+							"keywords": ["custom", "law", "exception", "creator control", "work", "public good", "intellectual property"]
 						},
 						{
 							"sentence": "Computing professionals should not unduly oppose reasonable uses of their intellectual works.",
-							"keywords": ["reasonable use", "intellectual work"]
+							"keywords": ["reasonable use", "intellectual property"]
 						},
 						{
 							"sentence": "Efforts to help others by contributing time and energy to projects that help society illustrate a positive aspect of this principle.",
@@ -327,7 +327,7 @@
 					"guidance": [
 						{
 							"sentence": "Computing professionals are often entrusted with confidential information such as trade secrets, client data, nonpublic business strategies, financial information, research data, pre-publication scholarly articles, and patent applications.",
-							"keywords": ["confidential information", "trade secret", "client data", "nonpublic business strategy", "financial information", "research data", "pre-publication scholarly article", "patent application"]
+							"keywords": ["confidentiality", "trade secret", "client data", "nonpublic business strategy", "financial information", "research data", "pre-publication scholarly article", "patent application", "intellectual property"]
 						},
 						{
 							"sentence": "Computing professionals should protect confidentiality except in cases where it is evidence of the violation of law, of organizational regulations, or of the Code.",
@@ -335,11 +335,11 @@
 						},
 						{
 							"sentence": "In these cases, the nature or contents of that information should not be disclosed except to appropriate authorities.",
-							"keywords": ["information", "disclosed", "authority"]
+							"keywords": ["information", "information disclosure, "authority"]
 						},
 						{
 							"sentence": "A computing professional should consider thoughtfully whether such disclosures are consistent with the Code.",
-							"keywords": ["disclosure"]
+							"keywords": ["information disclosure"]
 						}
 					]
 				}
