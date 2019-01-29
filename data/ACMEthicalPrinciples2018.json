@@ -618,15 +618,15 @@
 					"guidance": [
 						{
 							"sentence": "People—including users, customers, colleagues, and others affected directly or indirectly—should always be the central concern in computing.",
-							"keywords": []
+							"keywords": ["user", "customer", "colleague"]
 						},
 						{
 							"sentence": "The public good should always be an explicit consideration when evaluating tasks associated with research, requirements analysis, design, implementation, testing, validation, deployment, maintenance, retirement, and disposal.",
-							"keywords": []
+							"keywords": ["public good", "task evaluation", "research", "requirement analysis", "design", "implementation", "testing", "validation", "deployment", "maintenance", "retirement", "disposal"]
 						},
 						{
 							"sentence": "Computing professionals should keep this focus no matter which methodologies or techniques they use in their practice.",
-							"keywords": []
+							"keywords": ["public good", "methodologies", "techniques", "practice"]
 						}
 					]
 				},
@@ -636,15 +636,15 @@
 					"guidance": [ 
 						{
 							"sentence": "Technical organizations and groups affect broader society, and their leaders should accept the associated responsibilities.",
-							"keywords": []
+							"keywords": ["technical organizations", "society", "leaders", "responsibility", "societal impact"]
 						},
 						{
 							"sentence": "Organizations—through procedures and attitudes oriented toward quality, transparency, and the welfare of society—reduce harm to the public and raise awareness of the influence of technology in our lives.",
-							"keywords": []
+							"keywords": ["organization", "procedures", "attitudes", "quality", "transparency", "social welfare", "harm mitigation", "public", "technology", "societal impact"]
 						},
 						{
 							"sentence": "Therefore, leaders should encourage full participation of computing professionals in meeting relevant social responsibilities and discourage tendencies to do otherwise.",
-							"keywords": []
+							"keywords": ["leaders", "social responsibilities"]
 						}
 						
 					]
@@ -655,15 +655,15 @@
 					"guidance": [
 						{
 							"sentence": "Leaders should ensure that they enhance, not degrade, the quality of working life.",
-							"keywords": []
+							"keywords": ["leaders", "quality of life", "work"]
 						},
 						{
 							"sentence": "Leaders should consider the personal and professional development, accessibility requirements, physical safety, psychological well-being, and human dignity of all workers.",
-							"keywords": []
+							"keywords": ["leaders", "personal development", "professional development", "accessibility", "physical safety", "mental safety", "human dignity"]
 						},
 						{
 							"sentence": "Appropriate human-computer ergonomic standards should be used in the workplace.",
-							"keywords": []
+							"keywords": ["ergonomic standards"]
 						}
 					]
 				},
@@ -673,15 +673,15 @@
 					"guidance": [
 						{
 							"sentence": "Leaders should pursue clearly defined organizational policies that are consistent with the Code and effectively communicate them to relevant stakeholders.",
-							"keywords": []
+							"keywords": ["leaders", "organization policy", "stakeholders"]
 						},
 						{
 							"sentence": "In addition, leaders should encourage and reward compliance with those policies, and take appropriate action when policies are violated.",
-							"keywords": []
+							"keywords": ["leaders", "policy compliance", "organizational policy", "policy violation"]
 						},
 						{
 							"sentence": "Designing or implementing processes that deliberately or negligently violate, or tend to enable the violation of, the Code's principles is ethically unacceptable.",
-							"keywords": []
+							"keywords": ["process", "violate", "ethically unacceptable"]
 						}
 					]
 				},
