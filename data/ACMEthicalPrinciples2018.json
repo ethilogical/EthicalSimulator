@@ -759,15 +759,15 @@
 					"guidance": [
 						{
 							"sentence": "The future of computing depends on both technical and ethical excellence.",
-							"keywords": []
+							"keywords": ["future", "technical", "ethical"]
 						},
 						{
 							"sentence": "Computing professionals should adhere to the principles of the Code and contribute to improving them.",
-							"keywords": []
+							"keywords": ["principles of the Code", "contribute"]
 						},
 						{
 							"sentence": "Computing professionals who recognize breaches of the Code should take actions to resolve the ethical issues they recognize, including, when reasonable, expressing their concern to the person or persons thought to be violating the Code.",
-							"keywords": []
+							"keywords": ["breach of the Code", "ethical issue", "violation of the Code"]
 						}
 					]
 				},
@@ -777,11 +777,11 @@
 					"guidance": [
 						{
 							"sentence": "Each ACM member should encourage and support adherence by all computing professionals regardless of ACM membership.",
-							"keywords": []
+							"keywords": ["ACM member"]
 						},
 						{
 							"sentence": "ACM members who recognize a breach of the Code should consider reporting the violation to the ACM, which may result in remedial action as specified in the ACM's Code of Ethics and Professional Conduct Enforcement Policy.",
-							"keywords": []
+							"keywords": ["breach of the Code", "report", "violation of the Code", "ACM's Code of Ethics", "Professional Conduct Enforcement Policy"]
 						}
 					]
 				}
