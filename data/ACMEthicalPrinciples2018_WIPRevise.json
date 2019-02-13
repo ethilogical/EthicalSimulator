@@ -287,11 +287,11 @@
 						},
 						{
 							"sentence": "Technology enables the collection, monitoring, and exchange of personal information quickly, inexpensively, and often without the knowledge of the people affected.",
-							"keywords": ["data collection", "data monitoring", "data exchange", "personal information"]
+							"keywords": ["data collection", "data processing", "personal information", "informed consent"]
 						},
 						{
 							"sentence": "Therefore, a computing professional should become conversant in the various definitions and forms of privacy and should understand the rights and responsibilities associated with the collection and use of personal information.",
-							"keywords": ["privacy", "rights", "responsibilities", "data collection", "data use", "personal information"]
+							"keywords": ["privacy", "rights", "responsibilities", "data collection", "data processing", "personal information"]
 						},
 						{
 							"sentence": "Computing professionals should only use personal information for legitimate ends and without violating the rights of individuals and groups.",
@@ -299,11 +299,11 @@
 						},
 						{
 							"sentence": "This requires taking precautions to prevent re-identification of anonymized data or unauthorized data collection, ensuring the accuracy of data, understanding the provenance of the data, and protecting it from unauthorized access and accidental disclosure.",
-							"keywords": ["risk management", "data confidentiality", "data collection", "data integrity", "data origin", "access control", "disclosure"]
+							"keywords": ["risk management", "confidentiality", "data collection", "integrity", "data provenance", "access control", "disclosure"]
 						},
 						{
 							"sentence": "Computing professionals should establish transparent policies and procedures that allow individuals to understand what data is being collected and how it is being used, to give informed consent for automatic data collection, and to review, obtain, correct inaccuracies in, and delete their personal data.",
-							"keywords": ["transparency", "policies", "procedures", "data use", "informed consent", "data collection", "data integrity" , "data maintenance", "personal information"]
+							"keywords": ["transparency", "policies", "procedures", "data processing", "informed consent", "data collection", "integrity" , "data retention", "personal information"]
 						},
 						{
 							"sentence": "Only the minimum amount of personal information necessary should be collected in a system.",
@@ -311,7 +311,7 @@
 						},
 						{
 							"sentence": "The retention and disposal periods for that information should be clearly defined, enforced, and communicated to data subjects.",
-							"keywords": ["data maintenance", "defined", "enforced", "communication", "transparency", "data subjects"]
+							"keywords": ["data retention", "defined", "enforced", "communication", "transparency", "data subjects"]
 						},
 						{
 							"sentence": "Personal information gathered for a specific purpose should not be used for other purposes without the person's consent.",
@@ -319,11 +319,11 @@
 						},
 						{
 							"sentence": "Merged data collections can compromise privacy features present in the original collections.",
-							"keywords": ["merged data", "data confidentiality", "privacy", "data collection"]
+							"keywords": ["data aggregation", "confidentiality", "privacy", "data collection"]
 						},
 						{
 							"sentence": "Therefore, computing professionals should take special care for privacy when merging data collections.",
-							"keywords": ["special care", "privacy", "merged data", "data collection"]
+							"keywords": ["special care", "privacy", "data aggregation", "data collection"]
 						}
 					]
 				},
@@ -464,23 +464,23 @@
 					"guidance": [
 						{
 							"sentence": "Computing professionals are in a position of trust, and therefore have a special responsibility to provide objective, credible evaluations and testimony to employers, employees, clients, users, and the public.",
-							"keywords": ["position of trust", "responsibility", "evaluation", "testimony"]
+							"keywords": ["position of trust", "responsibility", "evaluation", "testimony", "employers", "employees", "clients", "users", "public"]
 						},
 						{
 							"sentence": "Computing professionals should strive to be perceptive, thorough, and objective when evaluating, recommending, and presenting system descriptions and alternatives.",
-							"keywords": ["perceptive", "thorough", "objective", "evaluating", "recommending", "presenting", "description", "alternatives"]
+							"keywords": ["evaluating", "recommending", "presenting", "system", "descriptions", "alternatives"]
 						},
 						{
 							"sentence": "Extraordinary care should be taken to identify and mitigate potential risks in machine learning systems.",
-							"keywords": ["care", "potential risk", "machine learning systems"]
+							"keywords": ["risk management", "machine learning systems"]
 						},
 						{
 							"sentence": "A system for which future risks cannot be reliably predicted requires frequent reassessment of risk as the system evolves in use, or it should not be deployed.",
-							"keywords": ["system", "future", "risk", "predicted", "reassessment", "system evolves", "deployed"]
+							"keywords": ["system", "risk management", "system development", "system deployment"]
 						},
 						{
 							"sentence": "Any issues that might result in major risk must be reported to appropriate parties.",
-							"keywords": ["issues", "major risk", "reported"]
+							"keywords": ["risk management", "risk reporting"]
 						}
 					]
 				},
@@ -495,19 +495,19 @@
 						},
 						{
 							"sentence": "This includes evaluating the work's feasibility and advisability, and making a judgment about whether the work assignment is within the professional's areas of competence.",
-							"keywords": ["evaluate", "assignment", "feasibility", "advisability", "judgment", "competence"]
+							"keywords": ["evaluate", "assignment", "judgment", "competence"]
 						},
 						{
 							"sentence": "If at any time before or during the work assignment the professional identifies a lack of a necessary expertise, they must disclose this to the employer or client.",
-							"keywords": ["assignment", "lack of expertise", "disclose"]
+							"keywords": ["assignment", "competence", "obligated", "transparency", "disclose"]
 						},
 						{
 							"sentence": "The client or employer may decide to pursue the assignment with the professional after additional time to acquire the necessary competencies, to pursue the assignment with someone else who has the required expertise, or to forgo the assignment.",
-							"keywords": ["pursue", "additional time", "necessary competence", "expertise", "forgo"]
+							"keywords": ["assignment", "competence"]
 						},
 						{
 							"sentence": "A computing professional's ethical judgment should be the final guide in deciding whether to work on the assignment.",
-							"keywords": ["ethical judgment", "final guide", "assignment"]
+							"keywords": ["ethical judgment", "assignment"]
 						}
 					]
 				},
