@@ -9,7 +9,7 @@
 				{
 					"principle":"Contribute to society and to human well-being, acknowledging that all people are stakeholders in computing.",
 					"htmlID": "h-1.1-contribute-to-society-and-to-human-well-being,-acknowledging-that-all-people-are-stakeholders-in-computing.",
-					"themes": [],
+					"themes": ["quality of life", "human rights", "social justice", "diversity", "environment"],
 					"guidance": [
 						{ 
 							"sentence": "This principle, which concerns the quality of life of all people, affirms an obligation of computing professionals, both individually and collectively, to use their skills for the benefit of society, its members, and the environment surrounding them.",
@@ -80,38 +80,185 @@
 						},
 						{ 
 							"sentence": "When the interests of multiple groups conflict, the needs of those less advantaged should be given increased attention and priority.",
-							"keywords": ["group", "conflict", "competing interests", "social justice", "priority of needs", "privilege", "societal structure", "power imbalance"] 
+							"keywords": [
+								{
+									"keyword":"group",
+									"relevance":1
+								},
+								{
+									"keyword":"conflict",
+									"relevance":3
+								}, 
+								{
+									"keyword":"competing interests",
+									"relevance":3
+								}, 
+								{
+									"keyword":"social justice",
+									"relevance":2
+								}, 
+								{
+									"keyword":"priority of needs",
+									"relevance":3
+								}, 
+								{
+									"keyword":"privilege",
+									"relevance":3
+								}, 
+								{
+									"keyword":"societal structure",
+									"relevance":2
+								}, 
+								{
+									"keyword":"power imbalance",
+									"relevance":3
+								}
+							] 
 						},
 						{
 							"sentence": "Computing professionals should consider whether the results of their efforts will respect diversity, will be used in socially responsible ways, will meet social needs, and will be broadly accessible.",
-							"keywords": ["diversity", "social responsibility", "social needs", "accessible"] 
+							"keywords": [
+								{
+									"keyword":"diversity",
+									"relevance":3
+								}, 
+								{
+									"keyword":"social responsibility",
+									"relevance":3
+								}, 
+								{
+									"keyword":"social needs",
+									"relevance":3
+								}, 
+								{
+									"keyword":"accessible",
+									"relevance":3
+								}
+							] 
 						}, 
 						{ 
 							"sentence": "They are encouraged to actively contribute to society by engaging in pro bono or volunteer work that benefits the public good.",
-							"keywords": ["contribute", "society", "pro bono", "volunteer", "public good"] 
+							"keywords": [
+								{
+									"keyword":"contribute",
+									"relevance":3
+								}, 
+								{
+									"keyword":"society",
+									"relevance":1
+								}, 
+								{
+									"keyword":"pro bono",
+									"relevance":2
+								},
+								{
+									"keyword":"volunteer",
+									"relevance":2
+								},
+								{
+									"keyword":"public good",
+									"relevance":3
+								}
+							] 
 						},
 						{ 
 							"sentence": "In addition to a safe social environment, human well-being requires a safe natural environment.",
-							"keywords": ["social environment", "human well-being", "safety", "natural environment"] 
+							"keywords": [
+								{
+									"keyword":"social environment",
+									"relevance":2
+								},
+								{
+									"keyword":"human well-being",
+									"relevance":3
+								},
+								{
+									"keyword":"safety",
+									"relevance":2
+								},
+								{	
+									"keyword":"natural environment",
+									"relevance":2
+								}
+							] 
 						},
 						{
 							"sentence": "Therefore, computing professionals should promote environmental sustainability both locally and globally.",
-							"keywords": ["environmental sustainability", "locally", "globally"]
+							"keywords": [
+								{
+									"keyword":"environmental sustainability",
+									"relevance":3
+								}, 
+								{
+									"keyword":"locally",
+									"relevance":1
+								},
+								{
+									"keyword":"globally",
+									"relevance":1
+								}
+							]
 						}
 					]
 				},
 				{
 					"principle":"Avoid harm.",
 					"htmlID": "h-1.2-avoid-harm.",
-					"themes": [],
+					"themes": ["harm", "harm mitigation", "risk", "risk reporting", "best practice"],
 					"guidance": [
 						{ 
 							"sentence": "In this document, \"harm\" means negative consequences, especially when those consequences are significant and unjust.",
-							"keywords": ["harm", "consequence"] 
+							"keywords": [
+								{
+									"keyword":"harm",
+									"relevance":3
+								},
+								{
+									"keyword":"consequence",
+									"relevance":2
+								}
+							] 
 						},
 						{
 							"sentence": "Examples of harm include unjustified physical or mental injury, unjustified destruction or disclosure of information, and unjustified damage to property, reputation, and the environment.",
-							"keywords": ["unjustified", "harm", "injury", "destruction", "disclosure of information", "damage", "property", "reputation", "environment"] 
+							"keywords": [
+								{
+									"keyword":"unjustified",
+									"relevance":3
+								},
+								{
+									"keyword":"harm",
+									"relevance":3
+								},
+								{
+									"keyword":"injury",
+									"relevance":2
+								},
+								{
+									"keyword":"destruction",
+									"relevance":2
+								},
+								{
+									"keyword":"disclosure of information",
+									"relevance":2
+								},
+								{
+									"keyword":"damage",
+									"relevance":2
+								},
+								{
+									"keyword":"property",
+									"relevance":1
+								},
+								{
+									"keyword":"reputation",
+									"relevance":1
+								},
+								{
+									"keyword":"environment",
+									"relevance":1
+								}
+							] 
 						},
 						{
 							"sentence": "This list is not exhaustive.",
@@ -119,15 +266,54 @@
 						},
 						{
 							"sentence": "Well-intended actions, including those that accomplish assigned duties, may lead to harm.",
-							"keywords": ["action", "duties", "unintended harm"] 
+							"keywords": [
+								{
+									"keyword":"action",
+									"relevance":2
+								},
+								{
+									"keyword":"duties",
+									"relevance":1
+								}, 
+								{
+									"keyword":"unintended harm",
+									"relevance":3
+								}
+							] 
 						},
 						{ 
 							"sentence": "When that harm is unintended, those responsible are obliged to undo or mitigate the harm as much as possible.",
-							"keywords": ["unintended harm", "obligation", "harm mitigation"] 
+							"keywords": [
+								{
+									"keyword":"unintended harm",
+									"relevance":3
+								},
+								{
+									"keyword":"obligation",
+									"relevance":3
+								},
+								{
+									"keyword":"harm mitigation",
+									"relevance":3
+								}
+							] 
 						},
 						{ 
 							"sentence": "Avoiding harm begins with careful consideration of potential impacts on all those affected by decisions.",
-							"keywords": ["harm", "impact", "decision"] 
+							"keywords": [
+								{
+									"keyword":"harm",
+									"relevance":3
+								},
+								{
+									"keyword":"impact",
+									"relevance":1
+								},
+								{
+									"keyword":"decision",
+									"relevance":2
+								}
+							] 
 						},
 						{ 
 							"sentence": "When harm is an intentional part of the system, those responsible are obligated to ensure that the harm is ethically justified.",
