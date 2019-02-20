@@ -791,7 +791,7 @@
 					"guidance": [
 						{
 							"sentence": "As appropriate to the context and one's abilities, computing professionals should share technical knowledge with the public, foster awareness of computing, and encourage understanding of computing.",
-							"keywords": ["share", "technical knowledge", "public", "awareness", "understanding"],
+							"keywords": ["technical knowledge", "public", "awareness", "understanding", "computing"],
 							"codes": []
 						},
 						{
@@ -801,12 +801,12 @@
 						},
 						{
 							"sentence": "Important issues include the impacts of computer systems, their limitations, their vulnerabilities, and the opportunities that they present.",
-							"keywords": ["impact", "computer system", "limitations", "vulnerabilities", "opportunities"],
+							"keywords": ["impact", "computer system", "system properties", "limitations", "vulnerabilities"],
 							"codes": []
 						},
 						{
 							"sentence": "Additionally, a computing professional should respectfully address inaccurate or misleading information related to computing.",
-							"keywords": ["address", "inaccurate", "misleading", "information", "computing"],
+							"keywords": ["awareness", "inaccurate", "misleading", "information", "computing"],
 							"codes": []
 						}
 					]
@@ -818,22 +818,22 @@
 					"guidance": [
 						{
 							"sentence": "Individuals and organizations have the right to restrict access to their systems and data so long as the restrictions are consistent with other principles in the Code.",
-							"keywords": ["restrict access", "system", "data"],
+							"keywords": ["access control", "system", "data"],
 							"codes": []
 						},
 						{
 							"sentence": "Consequently, computing professionals should not access another's computer system, software, or data without a reasonable belief that such an action would be authorized or a compelling belief that it is consistent with the public good.",
-							"keywords": ["should not access", "another's", "computer system", "software", "data", "authorized", "public good"],
+							"keywords": ["access control", "computer system", "software", "data", "reasonable belief", "compelling belief", "public good"],
 							"codes": []
 						},
 						{
 							"sentence": "A system being publicly accessible is not sufficient grounds on its own to imply authorization.",
-							"keywords": ["system", "publicly accessible", "not sufficient", "authorization"],
+							"keywords": ["system", "access control", "public access"],
 							"codes": []
 						},
 						{
 							"sentence": "Under exceptional circumstances a computing professional may use unauthorized access to disrupt or inhibit the functioning of malicious systems; extraordinary precautions must be taken in these instances to avoid harm to others.",
-							"keywords": ["unauthorized access", "malicious system", "precautions", "avoid harm"],
+							"keywords": ["access control", "malicious system", "risk management", "harm"],
 							"codes": []
 						}
 					]
@@ -850,37 +850,37 @@
 						},
 						{
 							"sentence": "Robust security should be a primary consideration when designing and implementing systems.",
-							"keywords": ["security", "design", "implement", "system"],
+							"keywords": ["security", "system life cycle"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals should perform due diligence to ensure the system functions as intended, and take appropriate action to secure resources against accidental and intentional misuse, modification, and denial of service.",
-							"keywords": ["due diligence", "system", "functions as intended", "secure resources", "misuse", "modification", "denial of service"],
+							"keywords": ["due diligence", "system", "system security", "confidentiality", "integrity", "availability"],
 							"codes": []
 						},
 						{
 							"sentence": "As threats can arise and change after a system is deployed, computing professionals should integrate mitigation techniques and policies, such as monitoring, patching, and vulnerability reporting.",
-							"keywords": ["threat", "system", "deployed", "mitigation", "monitoring", "patching", "vulnerability reporting"],
+							"keywords": ["system life cycle", "risk management", "risk mitigation", "system", "monitoring", "patching", "vulnerability reporting"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals should also take steps to ensure parties affected by data breaches are notified in a timely and clear manner, providing appropriate guidance and remediation.",
-							"keywords": ["affected parties", "notified", "data breach", "guidance", "remediation"],
+							"keywords": ["affected parties", "transparency", "data breach", "harm mitigation"],
 							"codes": []
 						},
 						{
 							"sentence": "To ensure the system achieves its intended purpose, security features should be designed to be as intuitive and easy to use as possible.",
-							"keywords": ["system", "purpose", "security features", "designed", "intuitive", "easy to use"],
+							"keywords": ["system", "security", "system design", "accessible"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals should discourage security precautions that are too confusing, are situationally inappropriate, or otherwise inhibit legitimate use.",
-							"keywords": ["discourage", "security precautions", "confusing", "situationally inappropriate", "inhibit use"],
+							"keywords": ["security", "accessible"],
 							"codes": []
 						},
 						{
 							"sentence": "In cases where misuse or harm are predictable or unavoidable, the best option may be to not implement the system.",
-							"keywords": ["misuse", "harm", "predictable", "unavoidable", "not implement", "system"],
+							"keywords": ["misuse", "harm", "system implementation", "system"],
 							"codes": []
 						}
 					]
@@ -899,17 +899,17 @@
 					"guidance": [
 						{
 							"sentence": "People—including users, customers, colleagues, and others affected directly or indirectly—should always be the central concern in computing.",
-							"keywords": [],
+							"keywords": ["people", "user", "customer", "colleague", "priority of needs"],
 							"codes": []
 						},
 						{
 							"sentence": "The public good should always be an explicit consideration when evaluating tasks associated with research, requirements analysis, design, implementation, testing, validation, deployment, maintenance, retirement, and disposal.",
-							"keywords": [],
+							"keywords": ["public good", "task evaluation", "research", "requirement analysis", "design", "implementation", "testing", "validation", "deployment", "maintenance", "retirement", "disposal", "life cycle"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals should keep this focus no matter which methodologies or techniques they use in their practice.",
-							"keywords": [],
+							"keywords": ["public good", "methodologies", "techniques"],
 							"codes": []
 						}
 					]
@@ -921,17 +921,17 @@
 					"guidance": [ 
 						{
 							"sentence": "Technical organizations and groups affect broader society, and their leaders should accept the associated responsibilities.",
-							"keywords": [],
+							"keywords": ["technical organizations", "technical groups", "society", "leaders", "responsibility", "societal impact"],
 							"codes": []
 						},
 						{
 							"sentence": "Organizations—through procedures and attitudes oriented toward quality, transparency, and the welfare of society—reduce harm to the public and raise awareness of the influence of technology in our lives.",
-							"keywords": [],
+							"keywords": ["organization", "procedures", "quality", "transparency", "societal welfare", "harm mitigation", "public", "technology", "societal impact"],
 							"codes": []
 						},
 						{
 							"sentence": "Therefore, leaders should encourage full participation of computing professionals in meeting relevant social responsibilities and discourage tendencies to do otherwise.",
-							"keywords": [],
+							"keywords": ["leaders", "participation", "social responsibilities"],
 							"codes": []
 						}
 						
@@ -944,17 +944,17 @@
 					"guidance": [
 						{
 							"sentence": "Leaders should ensure that they enhance, not degrade, the quality of working life.",
-							"keywords": [],
+							"keywords": ["leaders", "quality of life", "work"],
 							"codes": []
 						},
 						{
 							"sentence": "Leaders should consider the personal and professional development, accessibility requirements, physical safety, psychological well-being, and human dignity of all workers.",
-							"keywords": [],
+							"keywords": ["leaders", "development", "accessibility", "safety", "well-being", "human dignity"],
 							"codes": []
 						},
 						{
 							"sentence": "Appropriate human-computer ergonomic standards should be used in the workplace.",
-							"keywords": [],
+							"keywords": ["ergonomic standards", "workplace"],
 							"codes": []
 						}
 					]
@@ -966,17 +966,17 @@
 					"guidance": [
 						{
 							"sentence": "Leaders should pursue clearly defined organizational policies that are consistent with the Code and effectively communicate them to relevant stakeholders.",
-							"keywords": [],
+							"keywords": ["leaders", "organizational policy", "communication", "transparency", "stakeholders"],
 							"codes": []
 						},
 						{
 							"sentence": "In addition, leaders should encourage and reward compliance with those policies, and take appropriate action when policies are violated.",
-							"keywords": [],
+							"keywords": ["leaders", "policy compliance", "organizational policy", "policy violation"],
 							"codes": []
 						},
 						{
 							"sentence": "Designing or implementing processes that deliberately or negligently violate, or tend to enable the violation of, the Code's principles is ethically unacceptable.",
-							"keywords": [],
+							"keywords": ["process", "violate", "ethically unacceptable"],
 							"codes": []
 						}
 					]
@@ -988,22 +988,22 @@
 					"guidance": [
 						{
 							"sentence": "Educational opportunities are essential for all organization and group members.",
-							"keywords": [],
+							"keywords": ["education", "organization", "group"],
 							"codes": []
 						},
 						{
 							"sentence": "Leaders should ensure that opportunities are available to computing professionals to help them improve their knowledge and skills in professionalism, in the practice of ethics, and in their technical specialties.",
-							"keywords": [],
+							"keywords": ["leaders", "knowledge", "skills", "professionalism", "ethics", "technical"],
 							"codes": []
 						},
 						{
 							"sentence": "These opportunities should include experiences that familiarize computing professionals with the consequences and limitations of particular types of systems.",
-							"keywords": [],
+							"keywords": ["consequence", "limitation", "system"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals should be fully aware of the dangers of oversimplified approaches, the improbability of anticipating every possible operating condition, the inevitability of software errors, the interactions of systems and their contexts, and other issues related to the complexity of their profession—and thus be confident in taking on responsibilities for the work that they do.",
-							"keywords": [],
+							"keywords": ["awareness", "risk", "operating conditions", "software error", "system design", "responsibility", "work"],
 							"codes": []
 						}
 					]
@@ -1015,32 +1015,32 @@
 					"guidance": [
 						{
 							"sentence": "Interface changes, the removal of features, and even software updates have an impact on the productivity of users and the quality of their work.",
-							"keywords": [],
+							"keywords": ["software maintenance", "user", "work"],
 							"codes": []
 						},
 						{
 							"sentence": "Leaders should take care when changing or discontinuing support for system features on which people still depend.",
-							"keywords": [],
+							"keywords": ["leaders", "system maintenance", "system feature", "dependence", "people"],
 							"codes": []
 						},
 						{
 							"sentence": "Leaders should thoroughly investigate viable alternatives to removing support for a legacy system.",
-							"keywords": [],
+							"keywords": ["leaders", "alternative", "legacy system"],
 							"codes": []
 						},
 						{
 							"sentence": "If these alternatives are unacceptably risky or impractical, the developer should assist stakeholders' graceful migration from the system to an alternative.",
-							"keywords": [],
+							"keywords": ["alternative", "assistance", "technical support", "migration", "system"],
 							"codes": []
 						},
 						{
 							"sentence": "Users should be notified of the risks of continued use of the unsupported system long before support ends.",
-							"keywords": [],
+							"keywords": ["user", "transparency", "risk", "legacy system", "unsupported system"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals should assist system users in monitoring the operational viability of their computing systems, and help them understand that timely replacement of inappropriate or outdated features or entire systems may be needed.",
-							"keywords": [],
+							"keywords": ["user", "technical support", "system maintenance", "replacement", "feature", "system"],
 							"codes": []
 						}
 					]
@@ -1052,37 +1052,37 @@
 					"guidance": [
 						{
 							"sentence": "Even the simplest computer systems have the potential to impact all aspects of society when integrated with everyday activities such as commerce, travel, government, healthcare, and education.",
-							"keywords": [],
+							"keywords": ["system", "societal impact", "system integration", "everyday activities", "commerce", "travel", "government", "healthcare", "education"],
 							"codes": []
 						},
 						{
 							"sentence": "When organizations and groups develop systems that become an important part of the infrastructure of society, their leaders have an added responsibility to be good stewards of these systems.",
-							"keywords": [],
+							"keywords": ["organization", "group", "system", "societal infrastructure", "leaders", "responsibility", "stewardship"],
 							"codes": []
 						},
 						{
 							"sentence": "Part of that stewardship requires establishing policies for fair system access, including for those who may have been excluded.",
-							"keywords": [],
+							"keywords": ["stewardship", "policies", "fair access", "system", "excluded group"],
 							"codes": []
 						},
 						{
 							"sentence": "That stewardship also requires that computing professionals monitor the level of integration of their systems into the infrastructure of society.",
-							"keywords": [],
+							"keywords": ["stewardship", "system integration", "system", "societal infrastructure"],
 							"codes": []
 						},
 						{
 							"sentence": "As the level of adoption changes, the ethical responsibilities of the organization or group are likely to change as well.",
-							"keywords": [],
+							"keywords": ["system adoption", "ethical responsibility", "organization", "group"],
 							"codes": []
 						},
 						{
 							"sentence": "Continual monitoring of how society is using a system will allow the organization or group to remain consistent with their ethical obligations outlined in the Code.",
-							"keywords": [],
+							"keywords": ["society", "system", "organization", "group", "ethical obligation", "obligation"],
 							"codes": []
 						},
 						{
 							"sentence": "When appropriate standards of care do not exist, computing professionals have a duty to ensure they are developed.",
-							"keywords": [],
+							"keywords": ["standards of care", "development"],
 							"codes": []
 						}
 					]
@@ -1101,17 +1101,17 @@
 					"guidance": [
 						{
 							"sentence": "The future of computing depends on both technical and ethical excellence.",
-							"keywords": [],
+							"keywords": ["future", "computing", "technical", "ethical"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals should adhere to the principles of the Code and contribute to improving them.",
-							"keywords": [],
+							"keywords": ["principles of the Code", "contribute", "contribute", "improvement"],
 							"codes": []
 						},
 						{
 							"sentence": "Computing professionals who recognize breaches of the Code should take actions to resolve the ethical issues they recognize, including, when reasonable, expressing their concern to the person or persons thought to be violating the Code.",
-							"keywords": [],
+							"keywords": ["breach of the Code", "ethical issue", "violation of the Code"],
 							"codes": []
 						}
 					]
@@ -1123,12 +1123,12 @@
 					"guidance": [
 						{
 							"sentence": "Each ACM member should encourage and support adherence by all computing professionals regardless of ACM membership.",
-							"keywords": [],
+							"keywords": ["ACM member", "adherence to the code"],
 							"codes": []
 						},
 						{
 							"sentence": "ACM members who recognize a breach of the Code should consider reporting the violation to the ACM, which may result in remedial action as specified in the ACM's Code of Ethics and Professional Conduct Enforcement Policy.",
-							"keywords": [],
+							"keywords": ["breach of the Code", "report", "violation of the Code", "ACM's Code of Ethics", "Professional Conduct Enforcement Policy"],
 							"codes": []
 						}
 					]
