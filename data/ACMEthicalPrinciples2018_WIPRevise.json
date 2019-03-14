@@ -35,7 +35,7 @@
 									"relevance":2
 								}
 							],
-							"codes": []
+							"codes": ["quality of life", "contribute to society", "public good"]
 						},
 						{
 							"sentence": "This obligation includes promoting fundamental human rights and protecting each individual's right to autonomy.",
@@ -48,7 +48,8 @@
 									"keyword":"autonomy",
 									"relevance":3
 								}
-							] 
+							],
+							"codes": ["human rights", "autonomy"] 
 						},
 						{ 
 							"sentence": "An essential aim of computing professionals is to minimize negative consequences of computing, including threats to health, safety, personal security, and privacy.",
@@ -78,7 +79,7 @@
 									"relevance":2
 								}
 							],
-							"codes": [] 
+							"codes": ["risk management"] 
 						},
 						{ 
 							"sentence": "When the interests of multiple groups conflict, the needs of those less advantaged should be given increased attention and priority.",
@@ -105,7 +106,7 @@
 								}, 
 								{
 									"keyword":"privilege",
-									"relevance":3
+									"relevance":2
 								}, 
 								{
 									"keyword":"societal structure",
@@ -116,7 +117,7 @@
 									"relevance":3
 								}
 							],
-							"codes": []
+							"codes": ["competing interests", "priority of needs", "power imbalance"]
 						},
 						{
 							"sentence": "Computing professionals should consider whether the results of their efforts will respect diversity, will be used in socially responsible ways, will meet social needs, and will be broadly accessible.",
@@ -138,7 +139,7 @@
 									"relevance":3
 								}
 							],
-							"codes": [] 
+							"codes": ["diversity", "socially conscious", "accessible"] 
 						}, 
 						{ 
 							"sentence": "They are encouraged to actively contribute to society by engaging in pro bono or volunteer work that benefits the public good.",
@@ -164,7 +165,7 @@
 									"relevance":3
 								}
 							],
-							"codes": []
+							"codes": ["contribute to society", "give time to others", "public good"]
 						},
 						{ 
 							"sentence": "In addition to a safe social environment, human well-being requires a safe natural environment.",
@@ -186,7 +187,7 @@
 									"relevance":2
 								}
 							],
-							"codes": [] 
+							"codes": ["environmental safety", "human well-being"] 
 						},
 						{
 							"sentence": "Therefore, computing professionals should promote environmental sustainability both locally and globally.",
@@ -204,7 +205,7 @@
 									"relevance":1
 								}
 							],
-							"codes": []
+							"codes": ["environmental sustainability"]
 						}
 					]
 				},
