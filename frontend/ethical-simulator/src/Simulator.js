@@ -1,10 +1,11 @@
-import Navigator from './navBar';
+import React from 'react';
+
 export default class Simulator extends React.Component {
     render () {
         return (
-            <Navigator>
-                
-            </Navigator>
+            <div>
+                <p>yo dawg</p>
+            </div>
         );
     }
 }

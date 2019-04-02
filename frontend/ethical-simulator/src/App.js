@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navigator from './navBar';
 import Cards from './cards.js';
 import Begin from './ButtonBegin.js'
 import { Jumbotron } from 'reactstrap';
@@ -10,9 +9,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigator>
-
-        </Navigator>
         <Container>
                <Row>
                  <Col>
@@ -47,8 +43,7 @@ class App extends Component {
                             transparent to all stakeholders. Open discussions about ethical issues promote this accountability
                              and transparency. <br/>
                        </p>
-                       <Begin>
-                     </Begin>
+                      <Link className="btn btn-primary btn-lg" to="/simulator">Begin</Link>
                      </Jumbotron>
                  </Col>
                </Row>
