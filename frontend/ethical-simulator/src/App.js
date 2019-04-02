@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Cards from './cards.js';
-import Begin from './ButtonBegin.js'
 import { Jumbotron } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom'
+
 import './App.css';
 
 class App extends Component {
