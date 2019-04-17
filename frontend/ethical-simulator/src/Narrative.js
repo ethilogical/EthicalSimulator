@@ -47,6 +47,7 @@ export default class Narrative extends React.Component {
                         })};
                     </CardBody>
                 </Card>
+                
             </div>
         );
     }

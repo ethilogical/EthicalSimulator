@@ -1,8 +1,9 @@
 import React from 'react';
-
+import principle from './ACMEthicalPrinciples2018_WIPRevise.json'
 import { Container, Row, Col,Card, Button, CardImg, CardTitle, CardText, CardGroup,
     CardSubtitle, CardBody  } from 'reactstrap';
 import { listenerCount } from 'events';
+import stringSimilarity from 'string-similarity'
 
 export default class Passage extends React.Component {
     constructor(props) {
@@ -11,8 +12,9 @@ export default class Passage extends React.Component {
             select:1,
             passage: this.props.passage
         };
+      
     }
-    
+   
     render () {
         // let buttonTitle;
         // let passage;
@@ -34,10 +36,59 @@ export default class Passage extends React.Component {
             //     {this.state.passage.choices.map((choice, index) => {
             //         return <Button onClick={() => 0}> {choice.choice} </Button>
             //     })}
-            if (this.state.passage.choices){
-                console.log(this.state.passage.choices)
-            }
         
+       
+        function code(params) {
+            var category = principle.categories[0].principles
+            
+
+            var words = params.split(" ")
+            var found = [];
+            for(var i =0; i < category.length; i++){
+                for(var j=0; j < category[i].guidance.length; j++){
+            
+                    for(var k=0; k < category[i].guidance[j].keywords.length; k++){
+                        
+                        if(typeof category[i].guidance[j].keywords[k] === 'object'){                              
+                            for(var l=0; l < category[i].guidance[j].keywords[k].keyword.length; l++){
+                                
+                                if(words.includes(category[i].guidance[j].keywords[k].keyword)){
+                                    
+                                    found.push(category[i].guidance[j].keywords[k])
+                                }
+                                var result = stringSimilarity.findBestMatch(category[i].guidance[j].keywords[k].keyword, words)
+                                if (result.bestMatch.rating > .4){
+                                    found.push(result.bestMatch.target)
+                                    
+                                    //console.log(result.bestMatch.target)
+                                }
+                                
+                            }
+                        }else {
+                            
+                            var result = stringSimilarity.findBestMatch(category[i].guidance[j].keywords[k], words)
+                            if (result.bestMatch.rating > 0.4){
+                                found.push(result.bestMatch.target)
+                                
+                                //console.log(result.bestMatch)
+                            }
+                        }
+                    }
+                }
+            }
+            console.log("This is the keywords found")
+            if(found.length < 1){
+                return "NO KEY FOUND"
+            }else {
+                
+                
+                return found.filter(function(item, pos){
+                    return found.indexOf(item) == pos;
+                });
+            }
+            
+            
+        }
         if(this.props.passage.choices) {
             return (
 
@@ -47,10 +98,19 @@ export default class Passage extends React.Component {
                     {this.state.passage.choices.map((choice, index) => {
                         return <Button onClick={() => 0}> {choice.choice} </Button>
                     })}
+                    <div style={{border: '2px solid black'}}>
+                        <p>
+                            <h4>THE KEYWORDS</h4>
+                            {code(this.state.passage.passage).map(function(item) {
+                                return item + " "
+                            })}
+                        </p>
+                    </div>
+                    
                 </div>
             );
         }   else {
-            return <p>NOTHING</p>
+            return null
         } 
            
         }
