@@ -2,6 +2,7 @@ import React from 'react';
 import Passage from './Passage.js'
 import { Container, Row, Col,Card, Button, CardImg, CardTitle, CardText, CardGroup,
     CardSubtitle, CardBody  } from 'reactstrap';
+import { createSecureContext } from 'tls';
 
 export default class Narrative extends React.Component {
     constructor(props) {
@@ -9,8 +10,17 @@ export default class Narrative extends React.Component {
 
         this.state = {
             select:1,
+            status: this.props.narrative.startPage,
             narrative: this.props.narrative
         };
+    }
+
+
+    update = pageId => {
+        console.log(pageId)
+        this.setState({
+            status: pageId
+        })
     }
     
     render () {
@@ -24,7 +34,7 @@ export default class Narrative extends React.Component {
         //     passage = data.narratives[0].passages[this.state.select].passage;
         //     page = data.narratives[0].passages[this.state.select].page;
         //     choices = data.narratives[0].passages[this.state.select].choices;
-        //     buttonTitle = data.narratives[0].passages[this.state.select].choices[0].choice
+        //     buttonT\itle = data.narratives[0].passages[this.state.select].choices[0].choice
 
         // } else {
         //     this.state.select = 0;
@@ -42,9 +52,13 @@ export default class Narrative extends React.Component {
                         
                         
                        
-                        {this.state.narrative.passages.map((pass)=>{
-                           return <Passage passage={pass}></Passage>
-                        })};
+                        {
+                            Object.keys(this.state.narrative.passages).map((pass)=>{
+                                return pass == this.state.status 
+                                    ? <Passage update={this.update}  passage={this.state.narrative.passages[pass]}></Passage> : null
+                                
+                            })
+                        }
                     </CardBody>
                 </Card>
                 

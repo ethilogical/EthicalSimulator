@@ -4,6 +4,19 @@
 			"narrative":"MARCII Software Bug",
 			"startPage":"MARCIIBug-1",
 			"passages": {
+				"MARCIIBug-1": {
+					"page":"MARCIIBug-1",
+					"passage":"Pick a gender:",
+					"choices": [
+						{
+							"choice":"Female",
+							"page":"MARCIIBug-2"
+						},{
+							"choice":"Male",
+							"page":"MARCIIBug-2"
+						}
+					]
+				},
 				"MARCIIBug-1a": {
 					"page":"MARCIIBug-1a",
 					"passage":"You are a 32 year old male. You have received a BS degree in computer science and a MS degree in software engineering. You have worked as a professional computer scientist for eight years. You have spent the last five of those years working for QCA (Quality Computing Associates), a small firm that specializes in medical systems, as a software engineer. QCA has been in business for twenty-five years and has achieved a very prominent status. While at QCA you have produced good results and are thought of highly. In your time at QCA you have progressed from a programmer to a project manager.",
