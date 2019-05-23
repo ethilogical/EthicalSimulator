@@ -29,27 +29,30 @@ import {
     render() {
       return (
         <div>
-          <Navbar color="light" light expand="md">
+          <Navbar light expand="md">
             <NavbarBrand href="/">Ethical Simulator</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
+			   <NavItem>
+                  <NavLink href="">About</NavLink>
+                </NavItem>
                 <NavItem>
                   <NavLink href="">Simulator</NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink href="">About</NavLink>
-                </NavItem>
+				<NavItem>
+				  <NavLink href="https://ethics.acm.org/">Code of Ethics</NavLink>
+				</NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
                    Advisors
                   </DropdownToggle>
                   <DropdownMenu right>
                     <DropdownItem>
-                      Dr.Michael S. Kirkpatrick
+                      Dr. Michael S. Kirkpatrick
                     </DropdownItem>
                     <DropdownItem>
-                      Dr.Michael Stewart
+                      Dr. Michael Stewart
                     </DropdownItem>
                   </DropdownMenu>
                   
